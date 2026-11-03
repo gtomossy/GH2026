@@ -101,8 +101,8 @@
     "border": "#C9B98F"
    },
    "emblem": null,
-   "footer": "Register v1.29 · sheet v2.19 · S076, 31 October 2026",
-   "register_version": "1.29",
+   "footer": "Register v1.30 · sheet v2.21 · S077, 3 November 2026",
+   "register_version": "1.30",
    "front": [
     {
      "title": "Ability scores",
@@ -118,7 +118,7 @@
     },
     {
      "title": "Defence",
-     "md": "| Armour | AC | + shield |\n|---|---|---|\n| None | 10 | 9 |\n| Leather | 8 | 7 |\n| Chain mail | 5 | 4 |\n\n**Small shield** (house rule): covers **1 opponent a round**, at his **front or shield side** only. Dexterity 10: no adjustment.\n\n- **Shielded** (1 a round, front or shield side): leather 7, chain 4\n- **Anyone else** — a second attacker, his off side: leather 8, chain 5\n- **From behind:** attacker **+2 to hit**; no shield, no Dexterity bonus (backstab: +4)\n- Up to **six** attackers of his size can surround him: front, flanks, rear"
+     "md": "| Armour | AC | + shield |\n|---|---|---|\n| None | 10 | 9 |\n| Leather | 8 | 7 |\n| Chain mail | 5 | 4 |\n\n**Medium shield** (house rule): covers **2 opponents a round**, at his **front or shield side** only. Dexterity 10: no adjustment.\n\n- **Shielded** (up to 2 a round, front or shield side): leather 7, chain 4\n- **Anyone else** — a third attacker, his off side: leather 8, chain 5\n- **From behind:** attacker **+2 to hit**; no shield, no Dexterity bonus (backstab: +4)\n- Up to **six** attackers of his size can surround him: front, flanks, rear"
     },
     {
      "title": "Attack — THAC0 20",
@@ -130,7 +130,7 @@
     },
     {
      "title": "Prepared prayers",
-     "md": "**Slots:** 1st ×4 · 2nd ×3 — *pencil in each day's choice; one row per slot; tick the box when it is cast.*\n\n| Level | City | Combat | Travel | Special |\n|---|---|---|---|---|\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |"
+     "md": "**Slots:** 1st ×4 · 2nd ×3 — *pencil in each day's choice, one row per slot; tick the list in use and each slot once cast.*\n\n| Level | ☐ City | ☐ Combat | ☐ Travel | ☐ Special |\n|---|---|---|---|---|\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |"
     }
    ],
    "back": [
@@ -152,11 +152,11 @@
     },
     {
      "title": "Thief skills (Rogue 1)",
-     "md": "| Skill | None | Leather | Chain |\n|---|---|---|---|\n| Pick Pockets | 20% | 15% | 1% |\n| Open Locks | 10% | 10% | 10%\\* |\n| Find/Remove Traps | 5% | 5% | 1% |\n| Move Silently | 25% | 15% | 1% |\n| Hide in Shadows | 15% | 10% | 1% |\n| Detect Noise | 20% | 20% | 20%\\* |\n| Climb Walls | 70% | 60% | 25% |\n| Read Languages | — | — | — |\n\n\\* Gauntlets / helmet off; otherwise 1%. Chain: *Complete Thief's Handbook*, floor 1%. Shield in hand: some skills may not be usable (DM)."
+     "md": "| Skill | None | Leather | Chain |\n|---|---|---|---|\n| Pick Pockets | 20% | 15% | 1% |\n| Open Locks | 10% | 10% | 10%\\* |\n| Find/Remove Traps | 5% | 5% | 1% |\n| Move Silently | 25% | 15% | 1% |\n| Hide in Shadows | 15% | 10% | 1% |\n| Detect Noise | 20% | 20% | 20%\\* |\n| Climb Walls | 70% | 60% | 25% |\n| Read Languages | — | — | — |\n\n\\* Gauntlets / helmet off; otherwise 1%. Chain: *Complete Thief's Handbook*, floor 1%. Medium shield: which skills work is the DM's call."
     },
     {
      "title": "Gear",
-     "md": "**Consumables**\n\n- Potion of Healing (2d4+2) ×1\n- Invisibility potion ×1 dose\n- Healing salve (heals 1d3; Healing with advantage) ×4 applications\n- Oil flask ×1\n- Rations ×2\n- Torches ×3\n- Candles ×2\n\n**Ammunition**\n\n- Sling bullets ×20\n- Silver sling bullets ×19\n- Sling stones ×15\n\n**Equipment**\n\n- Broadsword\n- Silver spear (solid silver)\n- Daggers ×2\n- Sling\n- Leather armour\n- Chain mail\n- Small wooden shield\n- Lockpicks · Chalk · 20 ft cord · Alley map\n- Holy symbol (triskelion) · Ritual stones · Prayer folio\n- Backpack · Bedroll · Waterskin · Bandages\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+     "md": "**Consumables**\n\n- Potion of Healing (2d4+2) ×1\n- Invisibility potion ×1 dose\n- Healing salve (heals 1d3; Healing with advantage) ×4 applications\n- Oil flask ×1\n- Rations ×2\n- Torches ×3\n- Candles ×2\n\n**Ammunition**\n\n- Sling bullets ×20\n- Silver sling bullets ×19\n- Sling stones ×15\n\n**Equipment**\n\n- Broadsword\n- Silver spear (solid silver)\n- Daggers ×2\n- Sling\n- Leather armour\n- Chain mail\n- Medium shield\n- Lockpicks · Chalk · 20 ft cord · Alley map\n- Holy symbol (triskelion) · Ritual stones · Prayer folio\n- Backpack · Bedroll · Waterskin · Bandages\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
     },
     {
      "title": "Magic and wealth",
@@ -164,7 +164,7 @@
     },
     {
      "title": "Homebrew rulings",
-     "md": "Dual-class entry (min Dex 15; at least 2nd level before switching) and experience restrictions waived · weapon proficiencies: 2 by the rules + 1 DM grant (spear, broadsword, sling) · leather and chain both allowed · saves: best of priest and rogue · backstab with edged weapons only (not the spears) · chain: Complete Thief's Handbook penalties · Religion covers his own faith only, no slot · four out-of-sphere prayers approved · healing salve: Healing check with advantage (roll twice, keep the better) · small shield: 1 opponent a round, front or shield side."
+     "md": "Dual-class entry (min Dex 15; at least 2nd level before switching) and experience restrictions waived · weapon proficiencies: 2 by the rules + 1 DM grant (spear, broadsword, sling) · leather and chain both allowed · saves: best of priest and rogue · backstab with edged weapons only (not the spears) · chain: Complete Thief's Handbook penalties · Religion covers his own faith only, no slot · four out-of-sphere prayers approved · healing salve: Healing check with advantage (roll twice, keep the better) · medium shield: 2 opponents a round, front or shield side."
     }
    ],
    "prepared": {
@@ -231,7 +231,7 @@
     "rule": "#C77A12"
    },
    "emblem": null,
-   "footer": "Register v1.3 · sheet v1.5 · S076, 31 October 2026",
+   "footer": "Register v1.3 · sheet v1.6 · S077, 3 November 2026",
    "register_version": "1.3",
    "front": [
     {
@@ -260,7 +260,7 @@
     },
     {
      "title": "Prepared prayers",
-     "md": "**Slots:** 1st ×5 · 2nd ×4 — *pencil in each day's choice; one row per slot; tick the box when it is cast.*\n\n| Level | City | Combat | Travel | Special |\n|---|---|---|---|---|\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |"
+     "md": "**Slots:** 1st ×5 · 2nd ×4 — *pencil in each day's choice, one row per slot; tick the list in use and each slot once cast.*\n\n| Level | ☐ City | ☐ Combat | ☐ Travel | ☐ Special |\n|---|---|---|---|---|\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |"
     },
     {
      "title": "Turning undead",
@@ -1233,6 +1233,6 @@
    "wiki": "https://adnd2e.fandom.com/wiki/Zone_of_Truth_(Priest_Spell)"
   }
  },
- "data_version": "22456f90e9",
- "built": "03 November 2026, 23:03"
+ "data_version": "6d2856c222",
+ "built": "03 November 2026, 12:27"
 }
