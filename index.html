@@ -2,7 +2,7 @@
 <html lang="en-AU">
 <head>
 <meta charset="utf-8">
-<meta name="gh2026-version" content="1.0">
+<meta name="gh2026-version" content="1.1">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#3B2A12">
@@ -140,7 +140,7 @@ li.fl::before{content:'•';color:var(--ash)}
 <div id="app"><p class="wrap muted" style="padding-top:40px">Loading…</p></div>
 <script>
 'use strict';
-const APP_VERSION='1.0';
+const APP_VERSION='1.1';
 const PFX='gh2026.';
 const LIST_BLOCKS=['Gear','Magic and wealth','Notes'];   // blocks whose lines the player can edit
 let DATA=null, CUR=null, VIEW='front', TAB='sheet';
@@ -232,12 +232,13 @@ function renderList(items,ctx,opts){
 const ORD={1:'1st',2:'2nd',3:'3rd',4:'4th',5:'5th',6:'6th',7:'7th'};
 function prayersFor(levelLabel){const lv=parseInt(levelLabel,10);
   return Object.entries(DATA.spells).filter(([n,s])=>s.level===lv&&CUR._prayers.has(n)).map(([n])=>n);}
-function findSpell(name){if(!name)return null;const n=name.trim().toLowerCase().replace(/\s*\/\s*/g,'/');
-  for(const k of Object.keys(DATA.spells)){const kk=k.toLowerCase();if(kk===n||kk.split('/').includes(n))return k;}return null;}
+function normName(x){return x.toLowerCase().replace(/[^a-z0-9&/']+/g,' ').replace(/\s*\/\s*/g,'/').trim();}
+function findSpell(name){if(!name||!name.trim())return null;const n=normName(name);
+  for(const k of Object.keys(DATA.spells)){const kk=normName(k);if(kk===n||kk.split('/').map(x=>x.trim()).includes(n))return k;}return null;}
 function renderPrepared(b,ctx){
   const lines=b.md.split('\n'); const tableRows=lines.filter(l=>l.trim().startsWith('|'));
   const pre=lines.filter(l=>!l.trim().startsWith('|')).join('\n').replace(/ — \*pencil[^*]*\*/,'');
-  const head=cells(tableRows[0]).slice(1); const rows=tableRows.slice(2).map(r=>plain(cells(r)[0]).replace(/☐/g,'').trim());
+  const head=cells(tableRows[0]).slice(1).map(h=>h.replace(/\u2610/g,'').trim()); const rows=tableRows.slice(2).map(r=>plain(cells(r)[0]).replace(/☐/g,'').trim());
   const body=el('div',{class:'body'}); body.append(renderMd(pre,ctx));
   const K='pp:'; let view=eget(K+'view',eget(K+'active',0));
   const chips=el('div',{class:'chips',role:'group','aria-label':'Prayer lists'});
@@ -251,11 +252,12 @@ function renderPrepared(b,ctx){
     rows.forEach((lv,ri)=>{const key=K+'l'+view+':'+ri; const castKey=K+'cast:'+ri;
       const opts=prayersFor(lv); const dlid='dl-'+CUR.id+'-'+parseInt(lv,10);
       if(!document.getElementById(dlid)){const d=el('datalist',{id:dlid});opts.forEach(o=>d.append(el('option',{value:o})));document.body.append(d);}
-      const f=el('input',{class:'field',value:eget(key,''),list:dlid,placeholder:'choose a '+lv+'-level prayer','aria-label':lv+' level prayer, '+plain(head[view])});
+      const def=((CUR.prepared||{})[plain(head[view])]||[])[ri]||'';
+      const f=el('input',{class:'field',value:eget(key,def),list:dlid,placeholder:'choose a '+lv+'-level prayer','aria-label':lv+' level prayer, '+plain(head[view])});
       const info=el('button',{class:'info','aria-label':'About this prayer',title:'About this prayer'},'ⓘ');
       const syncInfo=()=>{info.disabled=!findSpell(f.value);};
       info.addEventListener('click',()=>{const s=findSpell(f.value);if(s)openSpell(s);});
-      f.addEventListener('input',()=>{eset(key,f.value||null);syncInfo();}); syncInfo();
+      f.addEventListener('input',()=>{eset(key,f.value===def?null:f.value);syncInfo();}); syncInfo();
       const row=el('div',{class:'slot'+(eget(castKey,false)?' cast':'')});
       const cb=el('button',{class:'castbtn',onclick:()=>{const v=!eget(castKey,false);eset(castKey,v||null);row.classList.toggle('cast',v);cb.textContent=v?'Cast ✓':'Cast';}},eget(castKey,false)?'Cast ✓':'Cast');
       row.append(el('span',{class:'lv'},lv),f,info,cb); list.append(row);});}

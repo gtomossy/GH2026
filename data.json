@@ -166,7 +166,45 @@
      "title": "Homebrew rulings",
      "md": "Dual-class entry (min Dex 15; at least 2nd level before switching) and experience restrictions waived · weapon proficiencies: 2 by the rules + 1 DM grant (spear, broadsword, sling) · leather and chain both allowed · saves: best of priest and rogue · backstab with edged weapons only (not the spears) · chain: Complete Thief's Handbook penalties · Religion covers his own faith only, no slot · four out-of-sphere prayers approved · healing salve: Healing check with advantage (roll twice, keep the better) · small shield: 1 opponent a round, front or shield side."
     }
-   ]
+   ],
+   "prepared": {
+    "City": [
+     "Cure Light Wounds",
+     "Light",
+     "Command",
+     "Detect Magic",
+     "Hold Person",
+     "Cure Moderate Wounds",
+     "Enthrall"
+    ],
+    "Combat": [
+     "Cure Light Wounds",
+     "Sunscorch",
+     "Detect Magic",
+     "Bless",
+     "Silence, 15' Radius",
+     "Cure Moderate Wounds",
+     "Spiritual Hammer"
+    ],
+    "Travel": [
+     "Cure Light Wounds",
+     "Light",
+     "Command",
+     "Purify Food & Drink",
+     "Hold Person",
+     "Aid",
+     "Dust Devil"
+    ],
+    "Special": [
+     "Cure Light Wounds",
+     "Detect Magic",
+     "Detect Magic",
+     "Bless",
+     "Astral Awareness",
+     "Ethereal Barrier",
+     "Silence, 15' Radius"
+    ]
+   }
   },
   {
    "id": "timir-kundul",
@@ -1195,6 +1233,6 @@
    "wiki": "https://adnd2e.fandom.com/wiki/Zone_of_Truth_(Priest_Spell)"
   }
  },
- "data_version": "ac98f22df5",
- "built": "03 November 2026, 22:39"
+ "data_version": "22456f90e9",
+ "built": "03 November 2026, 23:03"
 }
