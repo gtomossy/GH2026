@@ -1,0 +1,1200 @@
+{
+ "characters": [
+  {
+   "id": "lancel-dewitt",
+   "name": "Lancel DeWitt",
+   "identity": "Human · Fighter 4 · Lawful Good · of the Greyhawk Surrounds · Long sword specialist",
+   "vitals": "**Hit points:** max **35** ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ · **Move** 12",
+   "palette": {
+    "paper": "#F4ECD8",
+    "paper_deep": "#EADFC4",
+    "ink": "#22201C",
+    "ink_deep": "#0F2A5C",
+    "accent": "#1F4FA0",
+    "accent_text": "#F4ECD8",
+    "gold": "#D4A72C",
+    "ash": "#7B7264",
+    "border": "#C9B98F"
+   },
+   "emblem": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 116\" width=\"100\" height=\"116\" xmlns:c2pa=\"http://c2pa.org/manifest\"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmMmQ1NTZkZS1jOTA5LTQ5NzMtYWY4Ni1lZmI5YmRiOGZhYjkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMMOlo+3iHR1VluCM1v4A0QAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiNjY1ZDY0MC1kYjE2LTRjY2ItODU3NC0zMjA0N2E2MTg5NDdscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoBIY+/f/byZEwmnl7GI4xJAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggZaKz8FOo/dhwdZkFAX9XORm0mUhZPmhTQsx0qNNw+t6kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAfZN3WQZQrV+diH7ZtSmmoAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBi/QaGiOC5bN/EP5WTVQ1GlQGPtKoTYeg4kI+tJgiTmGRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiWZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmYyZDU1NmRlLWM5MDktNDk3My1hZjg2LWVmYjliZGI4ZmFiOS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjQ5MmQ4MzdjLTcwYjctNGRlNy1iZGE2LTU3MWQ0M2IwYTI2MXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBlorPwU6j92HB1mQUBf1c5GbSZSFk+aFNCzHSo03D63qJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggWSYmrM5nFEDO786T/YAva9DlwrMUALPih7VoAexVi/WiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgghWDBXmHeo3It11BN8yMkJgUba63zJj7efZsVwlzkEL10Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQMumZwSWBUYqElh6FGBS8n4WltskfQGk2XdOqaBsxf6V12/B2krNTtXBzMOD+ZvbIXrtnmAwVFi3GR4eLuN/9Qs=</c2pa:manifest></metadata>\n  <!-- Arms of DeWitt (George, S076): a white horse beneath a gold crown, on blue. Drawn at S076. -->\n  <path d=\"M6 6 H94 V52 C94 84 72 104 50 112 C28 104 6 84 6 52 Z\" fill=\"#1F4FA0\" stroke=\"#D4A72C\" stroke-width=\"4\" stroke-linejoin=\"round\"/>\n  <g fill=\"#D4A72C\" stroke=\"#8A6A12\" stroke-width=\"0.8\" stroke-linejoin=\"round\">\n    <path d=\"M34 32 L32 18 L40 25 L45 14 L50 23 L55 14 L60 25 L68 18 L66 32 Z\"/>\n    <rect x=\"33\" y=\"31\" width=\"34\" height=\"5.5\" rx=\"1\"/>\n    <circle cx=\"32\" cy=\"17\" r=\"2\"/><circle cx=\"45\" cy=\"13\" r=\"2\"/><circle cx=\"55\" cy=\"13\" r=\"2\"/><circle cx=\"68\" cy=\"17\" r=\"2\"/>\n  </g>\n  <g fill=\"#FFFFFF\" stroke=\"#BDB6A4\" stroke-width=\"0.7\" stroke-linejoin=\"round\">\n    <path d=\"M78 63 C86 66 88 76 85 90 C83 83 80 76 75 70 Z\"/>\n    <path d=\"M18.5 57 C18 53.5 21 48 24.5 44 L27.5 36 L30.5 41.5\n             C36 42.5 44 49 51 56.5 C58 58.5 66 57.5 72 59 C77 60.5 79 64.5 78 70\n             L78 82 L78.5 96 L74.5 96 L74 83 C73 79 71 77 69 76\n             L68.5 96 L64.5 96 L65 77 C59 78 51 78 47 77\n             L47.5 96 L43.5 96 L43 77 L41.5 75.5\n             L37 85 L33.5 90 L31 88 L34 83 L37.5 73\n             C35 70 33 65.5 30.5 61 C28 59.5 24.5 59 21.5 59 C20 58.7 19 58 18.5 57 Z\"/>\n    <path d=\"M30.5 41.5 C36 43.5 43 49.5 49.5 56.5 C43.5 54.5 37 49.5 32 45.5 Z\" fill=\"#E9E4D6\"/>\n  </g>\n  <circle cx=\"24.5\" cy=\"47.5\" r=\"1\" fill=\"#1F4FA0\"/>\n</svg>\n",
+   "footer": "Register v1.1 · sheet v1.2 · S076, 31 October 2026",
+   "register_version": "1.1",
+   "front": [
+    {
+     "title": "Ability scores",
+     "md": "*Ability check: d20 ≤ score.*\n\n| | Check | Also |\n|---|---|---|\n| **Str 18/07** | ≤ 18 | **+1** hit · **+3** dmg · Open doors d20 ≤ **12** · Bend bars d% ≤ **20** |\n| **Dex 16** | ≤ 16 | Surprise **+1** · missile **+1** · AC **−2** |\n| **Con 16** | ≤ 16 | +2 hp per Hit Die · Poison save adj. 0 |\n| **Int 10** | ≤ 10 | 2 extra non-weapon slots |\n| **Wis 12** | ≤ 12 | No magical defence adjustment |\n| **Cha 16** | ≤ 16 | Reaction **+5** · Loyalty +4 · Henchmen 8 |"
+    },
+    {
+     "title": "Constitution checks",
+     "md": "- **System shock** d% ≤ **95** — petrification and its reversal, polymorph (again on changing back), magical ageing, staying conscious\n- **Resurrection** d% ≤ **96** — limit 16 revivals, −1 Con each\n- **Holding breath** (underwater, swimming or diving) 6 rounds (3 exerting; halved without a good gulp of air); then a Con check each round, −2 cumulative after the first\n- **Jog** 16 rounds, then a Con check each round · **Run** a check every round (−1 / −2 / −3 cumulative per round at ×3 / ×4 / ×5)\n- **Force march** 30 mi a day; a check each night (−1 per day)\n- **Swim** 16 hours at half speed or treading water; then a Con check each hour (−1 Con per hour); choppy water: a check every hour"
+    },
+    {
+     "title": "Saving throws",
+     "md": "*d20, equal or over.*\n\n| Against | Save |\n|---|---|\n| Paralyzation, Poison, Death | **13** |\n| Rod, Staff, Wand | **15** |\n| Petrification, Polymorph | **14** |\n| Breath Weapon | **16** |\n| Spell | **16** |\n\nWisdom 12: no adjustment against mind magic."
+    },
+    {
+     "title": "Defence",
+     "md": "| Armour | Shielded | Other | Rear |\n|---|---|---|---|\n| Plate mail | **−2** | 1 | 3 |\n| Chain mail | **0** | 3 | 5 |\n| None | **5** | 8 | 10 |\n\n**Medium shield** (house rule; 2 slots, **+3**): covers **2 opponents a round**, at his **front or shield side**. Dexterity −2 counts except from the rear.\n\n- **Other:** a third attacker, his off side — no shield\n- **Rear:** attacker **+2 to hit**; no shield, no Dexterity\n- **Knock back** (1 foe a round): d20 **+5** (shield +2, Str +3) vs d20 + foe's Str dmg + Dex AC bonus; ±5 per size; win = foe pushed back 5 ft; natural 20 and win = foe supine"
+    },
+    {
+     "title": "Attack — THAC0 17",
+     "md": "| Target AC | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 | −1 | −2 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| **d20 needs** | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |\n\nRear attack **+2** · missile medium range **−2**, long **−5** · weapon adjustment as below (Strength and Dexterity already in it)."
+    },
+    {
+     "title": "Weapons",
+     "md": "| Weapon | To hit | Dmg S-M | Dmg L | Type | Speed | Att/rd · range (yd S/M/L) |\n|---|---|---|---|---|---|---|\n| **Lord Geoffrey's sword +1** *(specialist)* | **+3** | 1d8+6 | 1d12+6 | S | 5 | **3/2** |\n| **Long sword, silver** *(specialist)* | **+2** | 1d8+5 | 1d12+5 | S | 5 | **3/2** |\n| Battle axe *(proficient)* | +1 | 1d8+3 | 1d8+3 | S | 7 | 1 |\n| Composite long bow *(non-prof.)* | −1 | 1d6+3 | 1d6+3 | P | 7 | 2 · 60/120/210 |\n| Heavy horse lance *(non-prof.)* | −1 | 1d8+4 | 3d6+3 | P | 8 | 1 · ×2 dmg charging |\n| Dagger +1 *(non-prof.)* | 0 | 1d4+4 | 1d3+4 | P | 2 | 1 · thrown 2 · 10/20/30 |\n\n**Specialist:** +1 hit, +2 dmg with long swords (in the figures); 3 attacks every 2 rounds. **Silver sword:** harms creatures hit only by silver. **Bow:** a strength bow (+3 dmg); two hands — no shield that round; mounted, only at a standstill. **Penalties:** non-proficient **−2** (in the figures) · missile range: medium **−2**, long **−5**."
+    },
+    {
+     "title": "Mounted combat",
+     "md": "*On Hotspur (DMG ch. 9; PHB, Charging). Riding check: d20 ≤ 15.*\n\n- **In the saddle:** **+1 to hit** foes smaller than the horse (not riders, not giants); foes on foot **−1** to hit him (not the horse). Hotspur is war-trained: no penalty\n- **Charge:** move +50%, attack at the end, **+2 to hit**; lance **double damage**. Foes −2 initiative; he loses Dex to AC and takes +1 — **AC 1** shielded, **4** other; a set spear or polearm does double damage to him\n- **Lance:** heavy lance needs a heavy horse ✓ · strikes round 1, then every other round (break off, wheel, return) · drop it to fight close · may break on a hit\n- **Bow from the saddle:** only while Hotspur **stands still** (on the move, long bows are for specialists only) — full rate, normal to hit\n- **Unhorsed:** horse killed — Riding check to land on his feet, else fall (1d3), lose this round and the next · natural 20 from a rider's 3-ft+ weapon (footman's 10-ft+): knocked off (1d3) unless Riding check · lasso: Riding check to stop short · flying tackle: Dex check (≤ 16) to stay seated\n- **Leap down and attack** a foe within 10 ft: Riding **≤ 11**"
+    },
+    {
+     "title": "Mount",
+     "md": "**Hotspur** — heavy warhorse\n\n| | |\n|---|---|\n| **HP** | 22 ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐ |\n| **AC** | 7 |\n| **Move** | 15 (gallop 27) |\n| **THAC0** | 17 |\n| **Attacks** | 1d8 / 1d8 / 1d3 |\n\nFights on its own from round 2; panics 10%."
+    }
+   ],
+   "back": [
+    {
+     "title": "Special abilities and restrictions",
+     "md": "**Fighter, long sword specialist** — of the Greyhawk Surrounds. Arms of DeWitt: a white horse beneath a gold crown, on blue.\n\n- **Weapons and armour:** any\n- **Specialist (long sword):** +1 hit, +2 dmg; **3/2 attacks** a round (Fighter 1–6; 2 a round from Fighter 7)\n- **Shield proficiency** (house rule): medium shield, 2 slots — +3 AC against 2 opponents a round; *knock back*. A third slot: +4 AC and the shield as an off-hand weapon (1d3 / 1d5)\n- **Weapon slots:** 5 of 5 — long sword (2, specialised) · battle axe · medium shield (2). Non-proficient −2: bow, lance, dagger. Next slot at Fighter 6\n- **Experience:** +10% (Strength 16+)\n- **At 9th level:** a stronghold attracts men-at-arms and household guards\n- **Saves improve** at Fighter 5: 11 / 13 / 12 / 13 / 14"
+    },
+    {
+     "title": "Non-weapon proficiencies (5/6 slots)",
+     "md": "| Proficiency | Roll d20 ≤ | Notes |\n|---|---|---|\n| Riding, horses (Wis) | **15** | Vault into a standing saddle in armour: no roll · spur on (+6 move, up to 4 turns): roll each turn · jump up to 7 ft high / 30 ft gaps: roll · knee-guide to use two-handed weapons: roll only if hurt (fail: fall, +1d6) — but no long bow on the move · hang alongside: AC −6, no attack, no roll · leap and attack within 10 ft: **≤ 11** |\n| Heraldry (Int) | **10** | His homeland's heraldry (Greyhawk Surrounds): automatic. Other lands: roll |\n| Singing (Cha) | **16** | No roll to sing; roll to compose |"
+    },
+    {
+     "title": "Languages known",
+     "md": "*No roll: languages are simply known. The DM may call a check only for a hard case (reading ≤ 11).*\n\n- **Common** — native tongue: speaks it freely, no slot\n- **Reading & writing Common** — Reading/Writing (2 slots: outside a warrior's groups)\n- *1 non-weapon slot spare*"
+    },
+    {
+     "title": "Gear",
+     "md": "**Consumables**\n\n- Oil flask ×2\n- Wineskin ×1\n\n**Ammunition**\n\n- Arrows ×7\n- Silver arrows ×6\n\n**Equipment**\n\n- Plate mail\n- Chain mail\n- Medium shield\n- Battle axe\n- Composite long bow (strength bow)\n- Heavy horse lance\n- Bedroll · Tent\n- Family portrait from Mama (keepsake)\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n*Not his: the party's continual light stone (in use); 12 arrows gifted to Pip.*"
+    },
+    {
+     "title": "Magic and wealth",
+     "md": "**Magic**\n\n- Lord Geoffrey's long sword +1 — +1 hit & dmg\n- Dagger +1 (DeWitt heirloom) — +1 hit & dmg\n- Long sword, silver (not magic)\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n**Wealth**\n\n| | cp | sp | ep | gp | pp |\n|---|---|---|---|---|---|\n| **On hand** | | | | 10 | |\n| **Banked (home)** | | | | 200 | |\n\n**Gems, jewellery and other valuables**\n\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+    },
+    {
+     "title": "Homebrew rulings",
+     "md": "**Shields (house rule):** +1 AC against a set number of opponents a round (medium: 2), front and shield side only; +1 per slot of shield proficiency (max 3) · Intelligence adds non-weapon proficiency slots, spendable on any proficiency (optional rule)."
+    },
+    {
+     "title": "Notes",
+     "md": "- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+    }
+   ]
+  },
+  {
+   "id": "tass-theodont-clays",
+   "name": "Tass Theodont Clays",
+   "identity": "Human · Cleric 3 / Rogue 1 (rogue locked) · Chaotic Good · Specialty priest of **Trithereon**",
+   "vitals": "**Hit points:** max **21** ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐ · **Move** 12",
+   "palette": {
+    "paper": "#F4ECD8",
+    "paper_deep": "#EADFC4",
+    "ink": "#22201C",
+    "ink_deep": "#5C3A08",
+    "accent": "#8A5A12",
+    "accent_text": "#F4ECD8",
+    "gold": "#C9A227",
+    "ash": "#7B7264",
+    "border": "#C9B98F"
+   },
+   "emblem": null,
+   "footer": "Register v1.29 · sheet v2.19 · S076, 31 October 2026",
+   "register_version": "1.29",
+   "front": [
+    {
+     "title": "Ability scores",
+     "md": "*Ability check: d20 ≤ score.*\n\n| | Check | Also |\n|---|---|---|\n| **Str 10** | ≤ 10 | Open doors d20 ≤ **6** · Bend bars d% ≤ **2** |\n| **Dex 10** | ≤ 10 | No reaction, missile or AC adjustment |\n| **Con 15** | ≤ 15 | +1 hp per Hit Die · Poison save adj. 0 |\n| **Int 14** | ≤ 14 | 4 languages |\n| **Wis 18** | ≤ 18 | **+4** saves vs mind magic · spell failure 0% |\n| **Cha 14** | ≤ 14 | Reaction **+2** · Loyalty +1 · Henchmen 6 |\n| *Com 9* | — | *House convention; reaction 0* |"
+    },
+    {
+     "title": "Constitution checks",
+     "md": "- **System shock** d% ≤ **90** — petrification and its reversal, polymorph (again on changing back), magical ageing, staying conscious\n- **Resurrection** d% ≤ **94** — limit 15 revivals, −1 Con each\n- **Holding breath** (underwater, swimming or diving) 5 rounds (3 exerting; halved without a good gulp of air); then a Con check each round, −2 cumulative after the first\n- **Jog** 15 rounds, then a Con check each round · **Run** a check every round (−1 / −2 / −3 cumulative per round at ×3 / ×4 / ×5)\n- **Force march** 30 mi a day; a check each night (−1 per day)\n- **Swim** 15 hours at half speed or treading water; then a Con check each hour (−1 Con per hour); choppy water: a check every hour"
+    },
+    {
+     "title": "Saving throws",
+     "md": "*d20, equal or over.*\n\n| Against | Save |\n|---|---|\n| Paralyzation, Poison, Death | **10** |\n| Rod, Staff, Wand | **14** |\n| Petrification, Polymorph | **12** |\n| Breath Weapon | **16** |\n| Spell | **15** |\n\n**Mind magic** — magical spells that attack the mind: beguiling, charm, fear, hypnosis, illusion, possession, suggestion and the like, whatever category the effect is saved under. Wisdom 18 adds **+4** to the save roll (d20 + 4 must meet the save)."
+    },
+    {
+     "title": "Defence",
+     "md": "| Armour | AC | + shield |\n|---|---|---|\n| None | 10 | 9 |\n| Leather | 8 | 7 |\n| Chain mail | 5 | 4 |\n\n**Small shield** (house rule): covers **1 opponent a round**, at his **front or shield side** only. Dexterity 10: no adjustment.\n\n- **Shielded** (1 a round, front or shield side): leather 7, chain 4\n- **Anyone else** — a second attacker, his off side: leather 8, chain 5\n- **From behind:** attacker **+2 to hit**; no shield, no Dexterity bonus (backstab: +4)\n- Up to **six** attackers of his size can surround him: front, flanks, rear"
+    },
+    {
+     "title": "Attack — THAC0 20",
+     "md": "| Target AC | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| **d20 needs** | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |\n\nRear attack **+2** (backstab **+4**) · missile medium range **−2**, long **−5** · Strength and Dexterity add 0 · weapon adjustment as below."
+    },
+    {
+     "title": "Weapons",
+     "md": "| Weapon | To hit | Dmg S-M | Dmg L | Type | Speed | Thrown / fired (ROF · yd S/M/L) |\n|---|---|---|---|---|---|---|\n| **Spear +1** ‡ *(proficient)* | **+1** | 1d6+1 | 1d8+1 | P | 6 | 1 · 10/20/30 |\n| Spear, silver ‡ *(proficient)* | 0 | 1d6 | 1d8 | P | 6 | 1 · 10/20/30 |\n| Broadsword † *(proficient)* | 0 | 2d4 | 1d6+1 | S | 5 | — |\n| Sling, bullet *(proficient)* | 0 | 1d4+1 | 1d6+1 | B | 6 | 1 · 50/100/200 |\n| Sling, stone *(proficient)* | 0 | 1d4 | 1d4 | B | 6 | 1 · 40/80/160 |\n| **Knife +1** † *(non-prof.)* | **−2** | 1d3+1 | 1d2+1 | P/S | 2 | 2 · 10/20/30 |\n\n**‡ Two-handed (2H):** spear **1d8+1** vs S-M, **2d6** vs L (spear +1: 1d8+2 / 2d6+1) · **Set vs a charge** (butt braced on stone or foot): **double damage** on a hit; initiative −2 (optional rule).\n\n**† Backstab ×2** — edged weapons only (not the spears) · target unaware, Tass behind it: **+4 to hit**, ignores the target's shield and Dexterity; double the **weapon dice only**, then add bonuses (+1 for the magic knife); first blow only.\n\n**Penalties:** non-proficient weapon (dagger, knife) **−3** to hit · missile range: medium **−2**, long **−5**."
+    },
+    {
+     "title": "Prepared prayers",
+     "md": "**Slots:** 1st ×4 · 2nd ×3 — *pencil in each day's choice; one row per slot; tick the box when it is cast.*\n\n| Level | City | Combat | Travel | Special |\n|---|---|---|---|---|\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |"
+    }
+   ],
+   "back": [
+    {
+     "title": "Special abilities and restrictions",
+     "md": "**Specialty priest of Trithereon** — the Summoner; power of individuality and the right to self-protection. Symbol: the pursuit rune (triskelion). Raiment: blue robes.\n\n- **No turning undead** (TU nil)\n- **Weapons:** any — spear his first proficiency, broadsword his second\n- **Armour:** chain only by the Atlas; leather also allowed (homebrew)\n- **Spheres:** All · Astral · Combat · Guardian · Healing · Protection · Summoning · Travelers' — *minor (spell levels 1–3 only):* Chaos · Charm · Necromantic · Sun. **Also approved by the DM:** *Detect Magic*, *Dust Devil*, *Messenger*, *Snake Charm*. No special spells.\n- **Granted powers:** 3rd — backstab with an edged weapon for double damage (**active**) · 5th — *monster summoning* from the wizard list as priest spells · 8th — *animal summoning I*\n- **Prayer slots:** 1st **4** · 2nd **3** *(Wisdom bonus 3rd and 4th come at Cleric 5 and 7)*; texts in the Tass Prayer Book\n- **The priesthood:** Trithereon is a law unto himself; his priests care little for others' attitudes and are suspicious of lawful priests, even lawful good. In the cities the priesthood teaches self-protection and weapon use, practises battle tactics, and recruits rangers and thieves to teach its priests covert conflict; in the countryside priests serve as spies and border skirmishers, keeping watch against despots and evil humanoids"
+    },
+    {
+     "title": "Prayers of his Faith",
+     "md": "*The DM-approved list for the levels he casts now.*\n\n**1st level (22):** Astral Celerity · Battlefate · Bless/Curse · Blessed Watchfulness · Call Upon Faith · Combine · Command · Cure Light Wounds/Cause Light Wounds · Detect Magic · Dispel Fatigue · Invisibility to Undead · Know Direction · Light/Darkness · Magical Stone · Mistaken Missive · Orison · Purify Food & Drink/Putrefy Food & Drink · Remove Fear/Cause Fear · Sacred Guardian · Sanctuary · Speak with Astral Traveler · Sunscorch\n\n**2nd level (23):** Aid · Astral Awareness · Aura of Comfort · Chant · Chaos Ward · Cure Moderate Wounds/Cause Moderate Wounds · Dissension's Feast · Draw Upon Holy Might · Dust Devil · Enthrall · Ethereal Barrier · Hold Person · Iron Vigil · Lighten Load · Messenger · Music of the Spheres · Restore Strength · Sanctify/Defile · Silence, 15' Radius · Slow Poison · Snake Charm · Spiritual Hammer · Wyvern Watch"
+    },
+    {
+     "title": "Non-weapon proficiencies (8/9 slots)",
+     "md": "| Proficiency | Roll d20 ≤ | Notes |\n|---|---|---|\n| Religion — **Trithereon only** | **18** | Ordinary facts of his faith: automatic. Clergy, holy days: roll |\n| Healing (Wis) | **16** | Within 1 round of the wound: **1d3 hp**, once per patient per day · in his care: 1 hp/day, 2 hp/day with full rest |\n| Information Gathering (Int) | **14** | +2 when asking around in person · outside home turf (Greyhawk City): at least −3, and rumours need a roll · −3 without bribes (1d10 gp, spent either way) · retry next day |\n| Oratory (Cha) | **13** | Lasting converts if passed by 4+ · success shifts a reaction one step · moving speech +1 to +4 |\n| Fast-Talking (Cha) | **14** ± target | Target Int: 4–5 −3 · 6–8 −1 · 13–15 +1 · 16–17 +2 · 18 +3 · 19 +5 · 20+ immune. Target Wis: 3 −5 · 4–5 −3 · 6–8 −1 · 13–15 +1 · 16–17 +3 · 18 +5 · 19+ immune |\n| Eating (Con) | **15** | Eat up to double; go twice as long without food |"
+    },
+    {
+     "title": "Languages known",
+     "md": "*No roll: languages are simply known. The DM may call a check only for a hard case (reading ≤ 15, Baklunish ≤ 14).*\n\n- **Common** — native tongue: speaks it freely, no slot\n- **Reading & writing Common** — Reading/Writing proficiency (1 slot)\n- **Baklunish** — spoken, conversational (Languages, Modern; 1 slot)\n- **Thieves' Cant** — rogue ability, no slot: slang and implied meanings worked into any language; not a language proper"
+    },
+    {
+     "title": "Thief skills (Rogue 1)",
+     "md": "| Skill | None | Leather | Chain |\n|---|---|---|---|\n| Pick Pockets | 20% | 15% | 1% |\n| Open Locks | 10% | 10% | 10%\\* |\n| Find/Remove Traps | 5% | 5% | 1% |\n| Move Silently | 25% | 15% | 1% |\n| Hide in Shadows | 15% | 10% | 1% |\n| Detect Noise | 20% | 20% | 20%\\* |\n| Climb Walls | 70% | 60% | 25% |\n| Read Languages | — | — | — |\n\n\\* Gauntlets / helmet off; otherwise 1%. Chain: *Complete Thief's Handbook*, floor 1%. Shield in hand: some skills may not be usable (DM)."
+    },
+    {
+     "title": "Gear",
+     "md": "**Consumables**\n\n- Potion of Healing (2d4+2) ×1\n- Invisibility potion ×1 dose\n- Healing salve (heals 1d3; Healing with advantage) ×4 applications\n- Oil flask ×1\n- Rations ×2\n- Torches ×3\n- Candles ×2\n\n**Ammunition**\n\n- Sling bullets ×20\n- Silver sling bullets ×19\n- Sling stones ×15\n\n**Equipment**\n\n- Broadsword\n- Silver spear (solid silver)\n- Daggers ×2\n- Sling\n- Leather armour\n- Chain mail\n- Small wooden shield\n- Lockpicks · Chalk · 20 ft cord · Alley map\n- Holy symbol (triskelion) · Ritual stones · Prayer folio\n- Backpack · Bedroll · Waterskin · Bandages\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+    },
+    {
+     "title": "Magic and wealth",
+     "md": "**Magic**\n\n- Spear +1 — +1 to hit & damage\n- Knife +1 — +1 to hit & damage\n- Continual Light stone, in blackout velvet pouch\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n**Wealth**\n\n| | cp | sp | ep | gp | pp |\n|---|---|---|---|---|---|\n| **On hand** | | | | 5 | |\n| **Banked** | | | | 1,707 | |\n\n**Gems, jewellery and other valuables**\n\n- 95gp stolen, Census Bandits, to return in spring\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+    },
+    {
+     "title": "Homebrew rulings",
+     "md": "Dual-class entry (min Dex 15; at least 2nd level before switching) and experience restrictions waived · weapon proficiencies: 2 by the rules + 1 DM grant (spear, broadsword, sling) · leather and chain both allowed · saves: best of priest and rogue · backstab with edged weapons only (not the spears) · chain: Complete Thief's Handbook penalties · Religion covers his own faith only, no slot · four out-of-sphere prayers approved · healing salve: Healing check with advantage (roll twice, keep the better) · small shield: 1 opponent a round, front or shield side."
+    }
+   ]
+  },
+  {
+   "id": "timir-kundul",
+   "name": "Timír Kündül",
+   "identity": "Human · Cleric 4 · Neutral Good · Specialty priest of **Pelor**",
+   "vitals": "**Hit points:** max **23** ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐ · **Move** 12",
+   "palette": {
+    "paper": "#F4ECD8",
+    "paper_deep": "#EADFC4",
+    "ink": "#22201C",
+    "ink_deep": "#7A4300",
+    "accent": "#E8962E",
+    "accent_text": "#F4ECD8",
+    "gold": "#E0A526",
+    "ash": "#7B7264",
+    "border": "#C9B98F",
+    "banner": "#F7C548",
+    "banner_text": "#4A2C00",
+    "banner_sub": "#6B4300",
+    "banner_side": "#8A4E00",
+    "head": "#F2A93B",
+    "head_text": "#3D2400",
+    "th_text": "#A85F00",
+    "rule": "#C77A12"
+   },
+   "emblem": null,
+   "footer": "Register v1.3 · sheet v1.5 · S076, 31 October 2026",
+   "register_version": "1.3",
+   "front": [
+    {
+     "title": "Ability scores",
+     "md": "*Ability check: d20 ≤ score.*\n\n| | Check | Also |\n|---|---|---|\n| **Str 12** | ≤ 12 | Open doors d20 ≤ **7** · Bend bars d% ≤ **4** |\n| **Dex 9** | ≤ 9 | No reaction, missile or AC adjustment |\n| **Con 15** | ≤ 15 | +1 hp per Hit Die · Poison save adj. 0 |\n| **Int 12** | ≤ 12 | 3 extra non-weapon slots |\n| **Wis 18** | ≤ 18 | **+4** saves vs mind magic · spell failure 0% |\n| **Cha 10** | ≤ 10 | Reaction 0 · Loyalty 0 · Henchmen 4 |\n| *Com 11* | — | *House convention; reaction 0* |"
+    },
+    {
+     "title": "Constitution checks",
+     "md": "- **System shock** d% ≤ **90** — petrification and its reversal, polymorph (again on changing back), magical ageing, staying conscious\n- **Resurrection** d% ≤ **94** — limit 15 revivals, −1 Con each\n- **Holding breath** (underwater, swimming or diving) 5 rounds (3 exerting; halved without a good gulp of air); then a Con check each round, −2 cumulative after the first\n- **Jog** 15 rounds, then a Con check each round · **Run** a check every round (−1 / −2 / −3 cumulative per round at ×3 / ×4 / ×5)\n- **Force march** 30 mi a day; a check each night (−1 per day)\n- **Swim** 15 hours at half speed or treading water; then a Con check each hour (−1 Con per hour); choppy water: a check every hour"
+    },
+    {
+     "title": "Saving throws",
+     "md": "*d20, equal or over.*\n\n| Against | Save |\n|---|---|\n| Paralyzation, Poison, Death | **9** |\n| Rod, Staff, Wand | **13** |\n| Petrification, Polymorph | **12** |\n| Breath Weapon | **15** |\n| Spell | **14** |\n\n**Mind magic** — magical spells that attack the mind: beguiling, charm, fear, hypnosis, illusion, possession, suggestion and the like, whatever category the effect is saved under. Wisdom 18 adds **+4** to the save roll (d20 + 4 must meet the save)."
+    },
+    {
+     "title": "Defence",
+     "md": "| Armour | AC | + shield (proficient) |\n|---|---|---|\n| None | 10 | 8 |\n| Chain mail | 5 | **3** |\n\n**Medium shield** (house rule; proficient, +2): covers **2 opponents a round**, at his **front or shield side** only. Dexterity 9: no adjustment.\n\n- **Shielded** (up to 2 a round, front or shield side): **AC 3** in chain\n- **Anyone else** — a third attacker, his off side: **AC 5** in chain\n- **From behind:** attacker **+2 to hit**; no shield, no Dexterity bonus — **AC 5**\n- Up to **six** attackers of his size can surround him"
+    },
+    {
+     "title": "Attack — THAC0 18",
+     "md": "| Target AC | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n| **d20 needs** | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |\n\nRear attack **+2** · missile medium range **−2**, long **−5** · Strength and Dexterity add 0 · weapon adjustment as below."
+    },
+    {
+     "title": "Weapons",
+     "md": "| Weapon | To hit | Dmg S-M | Dmg L | Type | Speed | Thrown / fired (ROF · yd S/M/L) |\n|---|---|---|---|---|---|---|\n| **Mace** *(proficient)* | 0 | 1d6+1 | 1d6 | B | 7 | — |\n| **Silver mace** *(proficient)* | 0 | 1d6+1 | 1d6 | B | 7 | — |\n| **Short bow**, flight arrow *(proficient)* | 0 | 1d6 | 1d6 | P | 7 | 2 · 50/100/150 |\n\n**Silver mace:** solid-silver head — harms creatures hit only by silver (lycanthropes, some undead). Silver bends against armour: keep it for need.\n\n**Bow:** two hands — no medium shield in a round he shoots.\n\n**Penalties:** non-proficient weapon **−3** to hit · missile range: medium **−2**, long **−5**."
+    },
+    {
+     "title": "Prepared prayers",
+     "md": "**Slots:** 1st ×5 · 2nd ×4 — *pencil in each day's choice; one row per slot; tick the box when it is cast.*\n\n| Level | City | Combat | Travel | Special |\n|---|---|---|---|---|\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **1st** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |\n| **2nd** ☐ | | | | |"
+    },
+    {
+     "title": "Turning undead",
+     "md": "*As a 5th-level priest (Pelor +1). d20 ≥; T = turned automatic.*\n\n| Undead | d20 |\n|---|---|\n| Skeleton, 1 HD | **T** |\n| Zombie | **T** |\n| Ghoul, 2 HD | 4 |\n| Shadow, 3–4 HD | 7 |\n| Wight, 5 HD | 10 |\n| Ghast | 13 |\n| Wraith, 6 HD | 16 |\n| Mummy, 7 HD | 19 |\n| Spectre, 8 HD | 20 |\n| Vampire, 9 HD + | — |\n\nTurns **2d6**, lowest HD first; one roll for all types."
+    }
+   ],
+   "back": [
+    {
+     "title": "Special abilities and restrictions",
+     "md": "**Specialty priest of Pelor** — the Sun God; Power of strength, light and healing. Raiment: yellow robes (gold-trimmed from 7th level).\n\n- **Turns undead at +1 level** — as a 5th-level priest (front)\n- **Weapons:** flail, mace, morningstar, staff, staff-sling — **short bow also approved by the DM**\n- **Armour:** leather or chain\n- **Spheres:** All · Charm · Creation · Elemental (air) · Guardian · Healing · Necromantic · Protection · Sun — *minor (spell levels 1–3 only):* Summoning · Wards. No special spells.\n- **Granted powers:** 1st — healing spells do at least **median** healing: *cure light wounds* at least **5 hp**, *cure serious* 9, *cure critical* 16, *heal* all but 1–2 hp; *cure moderate wounds* at least **6** (**active**) · 5th — automatic saves vs spells that blind him (*darkness*, *blindness*) · 9th — *fly*\n- **Prayer slots:** 1st **5** · 2nd **4** *(Wisdom bonus 3rd and 4th come at Cleric 5 and 7)*; texts in the Pelor Prayer Book\n- **The priesthood:** Pelor's priests have always worked for the poor and sick, bringing healing, food and aid; quiet, kindly people for the most part, but with some steel as protection. Services: hymn-singing, communal prayer, alms to the needy (and their collection from the well-to-do). His reverence is turning more martial — a wrathful Power who drives out the darkness of evil"
+    },
+    {
+     "title": "Prayers of his Faith",
+     "md": "*The DM-approved list for the levels he casts now.*\n\n**1st level (22):** Antivermin Barrier · Bless/Curse · Blessed Watchfulness · Call Upon Faith · Combine · Command · Cure Light Wounds/Cause Light Wounds · Detect Magic · Dispel Fatigue · Endure Cold/Endure Heat · Invisibility to Undead · Light/Darkness · Orison · Protection from Evil/Protection from Good · Purify Food & Drink/Putrefy Food & Drink · Remove Fear/Cause Fear · Ring of Hands/Ring of Woe · Sacred Guardian · Sanctuary · Sunscorch · Weighty Chest · Wind Column\n\n**2nd level (24):** Aid · Chant · Create Holy Symbol · Cure Moderate Wounds/Cause Moderate Wounds · Draw Upon Holy Might · Dust Devil · Enthrall · Ethereal Barrier · Frisky Chest · Hold Person · Iron Vigil · Messenger · Music of the Spheres · Mystic Transfer · Resist Acid and Corrosion · Resist Fire/Resist Cold · Restore Strength · Sanctify/Defile · Silence, 15' Radius · Slow Poison · Snake Charm · Withdraw · Wyvern Watch · Zone of Truth"
+    },
+    {
+     "title": "Non-weapon proficiencies (5/8 slots)",
+     "md": "| Proficiency | Roll d20 ≤ | Notes |\n|---|---|---|\n| Religion (Wis) | **18** | Ordinary facts of any faith of his homeland and its neighbours: automatic. Clergy, holy days: roll |\n| Healing (Wis) | **16** | Within 1 round of the wound: **1d3 hp**, once per patient per day · in his care: 1 hp/day, 2 hp/day with full rest · up to 6 patients · poison through a wound: tend 5 rounds for **+2** to the save |\n| Local History (Cha) | **10** | History of his home region · a tale that entertains needs no roll and gives **+2 Cha** for the encounter |"
+    },
+    {
+     "title": "Languages known",
+     "md": "*No roll: languages are simply known. The DM may call a check only for a hard case (reading ≤ 13).*\n\n- **Common** — native tongue: speaks it freely, no slot\n- **Reading & writing Common** — Reading/Writing proficiency (1 slot)\n- *3 non-weapon slots spare — a further language costs 1*"
+    },
+    {
+     "title": "Gear",
+     "md": "**Consumables**\n\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n**Ammunition**\n\n- Arrows (flight) ×\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n**Equipment**\n\n- Chain mail\n- Medium shield\n- Mace\n- Silver mace (solid-silver head)\n- Short bow\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+    },
+    {
+     "title": "Magic and wealth",
+     "md": "**Magic**\n\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n**Wealth**\n\n| | cp | sp | ep | gp | pp |\n|---|---|---|---|---|---|\n| **On hand** | | | | | |\n| **Banked** | | | | | |\n\n**Gems, jewellery and other valuables**\n\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+    },
+    {
+     "title": "Homebrew rulings",
+     "md": "Short bow approved by the DM as a weapon proficiency (outside Pelor's list) · **Shields (house rule):** +1 AC against a set number of opponents a round (medium: 2), front and shield side only; shield proficiency +1 more (medium, 1 slot) · *cure moderate wounds* at least 6 (DM) · Intelligence adds non-weapon proficiency slots, spendable on any proficiency (optional rule) · Comeliness carried as a house convention."
+    },
+    {
+     "title": "Notes",
+     "md": "- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+    }
+   ]
+  }
+ ],
+ "spells": {
+  "Astral Celerity": {
+   "level": 1,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Astral",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S",
+    "duration": "1 hr./level",
+    "casting_time": "4",
+    "area": "The caster",
+    "save": "None"
+   },
+   "summary": "While astral, your movement rate is doubled, you acclimatise quickly and you suffer no missile-fire penalties. On the Ethereal Plane it raises movement by half instead (12 becomes 18).",
+   "wiki": "https://adnd2e.fandom.com/wiki/Astral_Celerity_(Priest_Spell)"
+  },
+  "Battlefate": {
+   "level": 1,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Chaos",
+    "reversible": false,
+    "range": "20 yds",
+    "components": "V, S, M",
+    "duration": "2 rds./level",
+    "casting_time": "4",
+    "area": "1 creature",
+    "save": "None"
+   },
+   "summary": "Bends luck for one combatant, with a bonus of +1 per three caster levels (max +5 at 13th). Each round roll 1d6: 1 nothing, 2 AC, 3 saves, 4 attack rolls, 5 damage, 6 one extra attack using the bonus on attack or damage.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Battlefate_(Priest_Spell)"
+  },
+  "Bless/Curse": {
+   "level": 1,
+   "figures": {
+    "school": "Conjuration/Summoning",
+    "sphere": "All",
+    "reversible": true,
+    "range": "60 yds.",
+    "components": "V, S, M",
+    "duration": "6 rds.",
+    "casting_time": "1 rd.",
+    "area": "50-ft. cube",
+    "save": "None"
+   },
+   "summary": "Allies in the area who are not yet in melee gain +1 to attack rolls and +1 to morale and saves against fear; alternatively, blesses one item of up to 1 lb per level until used. Doesn't stack. Reverse: enemies suffer -1 to morale and attacks.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Bless_(Priest_Spell)"
+  },
+  "Blessed Watchfulness": {
+   "level": 1,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Guardian",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "4 hrs. + 1 hr./level",
+    "casting_time": "4",
+    "area": "Creature touched",
+    "save": "None"
+   },
+   "summary": "Keeps one sentry awake and alert: surprised only on a 1, treated as 4 levels or HD higher against sleep-type magic, and +2 to saves against charm, fear and other mind effects that would undermine the watch.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Blessed_Watchfulness_(Priest_Spell)"
+  },
+  "Call Upon Faith": {
+   "level": 1,
+   "figures": {
+    "school": "Invocation",
+    "sphere": "Summoning",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S, M",
+    "duration": "1 round",
+    "casting_time": "1",
+    "area": "The caster",
+    "save": "None"
+   },
+   "summary": "If the DM judges you to have kept faith, you gain +3 (or +15%) on one roll of your choice for an upcoming difficult task, such as a save, attack or ability check.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Call_Upon_Faith_(Priest_Spell)"
+  },
+  "Combine": {
+   "level": 1,
+   "figures": {
+    "school": "Evocation",
+    "sphere": "All",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "Special",
+    "casting_time": "1 rd.",
+    "area": "Circle of priests",
+    "save": "None"
+   },
+   "summary": "Three to five priests link up: the highest-level one stands in the centre and gains one level per circling priest (max +4) for turning undead and level-based spell effects, but no extra spells. Circlers lose shield and Dex AC bonuses; if any loses concentration, it ends.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Combine_(Priest_Spell)"
+  },
+  "Command": {
+   "level": 1,
+   "figures": {
+    "school": "Enchantment/Charm",
+    "sphere": "Charm",
+    "reversible": false,
+    "range": "30 yds.",
+    "components": "V",
+    "duration": "1 rd.",
+    "casting_time": "1",
+    "area": "1 creature",
+    "save": "None"
+   },
+   "summary": "Speak one clear word in a language the target understands and it obeys for a round; 'Die!' makes it faint for a round, and self-destructive orders are ignored. No effect on undead. Creatures of Int 13+ or 6+ HD/levels get a save.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Command_(Priest_Spell)"
+  },
+  "Cure Light Wounds/Cause Light Wounds": {
+   "level": 1,
+   "figures": {
+    "school": "Necromancy",
+    "sphere": "Healing",
+    "reversible": true,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "Permanent",
+    "casting_time": "5",
+    "area": "Creature touched",
+    "save": "None"
+   },
+   "summary": "Your touch heals 1d8 hit points to a living, corporeal creature that is not extraplanar. Reverse: inflicts 1d8 damage, needing an attack roll against an unwilling target.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Cure_Light_Wounds_(Priest_Spell)"
+  },
+  "Detect Magic": {
+   "level": 1,
+   "figures": {
+    "school": "Divination",
+    "sphere": "Divination ⚠",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S, M",
+    "duration": "1 turn",
+    "casting_time": "1 rd.",
+    "area": "10 ft. × 30 yds.",
+    "save": "None"
+   },
+   "summary": "Reveals magic in a strip ahead of you and how strong it is (dim to overwhelming); each level gives 10% to identify its sphere, but never its school. You can sweep a 60° arc each round; thick stone, metal or wood blocks it.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Detect_Magic_(Priest_Spell)"
+  },
+  "Dispel Fatigue": {
+   "level": 1,
+   "figures": {
+    "school": "Necromancy",
+    "sphere": "Necromantic",
+    "reversible": false,
+    "range": "30 yds.",
+    "components": "V, S, M",
+    "duration": "Instantaneous",
+    "casting_time": "4",
+    "area": "1 creature",
+    "save": "None"
+   },
+   "summary": "Instantly clears all physical tiredness from one creature, leaving it fully rested and cancelling penalties from forced marching, swimming, running or accumulated fatigue points. Fatigue can build up again afterwards.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Dispel_Fatigue_(Priest_Spell)"
+  },
+  "Invisibility to Undead": {
+   "level": 1,
+   "figures": {
+    "school": "Abjuration",
+    "sphere": "Necromantic",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "6 rds.",
+    "casting_time": "4",
+    "area": "1 creature",
+    "save": "Special"
+   },
+   "summary": "Undead overlook the protected creature: those of 4 HD or less are automatically fooled, stronger ones save. Attacking ends it, though non-attack spells such as healing are fine, and a protected priest can't turn the fooled undead.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Invisibility_to_Undead_(Priest_Spell)"
+  },
+  "Know Direction": {
+   "level": 1,
+   "figures": {
+    "school": "Divination",
+    "sphere": "Travelers",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S, M",
+    "duration": "Instantaneous",
+    "casting_time": "1",
+    "area": "Special",
+    "save": "None"
+   },
+   "summary": "You instantly learn which way is north, anywhere, including underground, underwater or in magical darkness.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Know_Direction_(Priest_Spell)"
+  },
+  "Light/Darkness": {
+   "level": 1,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Sun",
+    "reversible": true,
+    "range": "120 yds.",
+    "components": "V, S",
+    "duration": "1 hr. + 1 turn/level",
+    "casting_time": "4",
+    "area": "20-ft.-radius globe",
+    "save": "Special"
+   },
+   "summary": "Creates torch-bright light in a 20-ft radius, fixed in place or on an object or creature (a creature may resist or save). Aimed at the eyes it blinds: -4 to attacks, saves and AC. Reverse: pitch-black magical darkness for half the duration; the two cancel.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Light_(Priest_Spell)"
+  },
+  "Magical Stone": {
+   "level": 1,
+   "figures": {
+    "school": "Enchantment",
+    "sphere": "Combat",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "Special",
+    "casting_time": "4",
+    "area": "3 pebbles",
+    "save": "None"
+   },
+   "summary": "Enchants up to three pebbles that anyone can throw (all in one round, to 30 yd) or sling proficiently. Each hit deals 1d4 (2d4 against undead) and counts as +1 magic for what it can hurt, with no attack or damage bonus. Lasts 30 minutes.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Magical_Stone_(Priest_Spell)"
+  },
+  "Mistaken Missive": {
+   "level": 1,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Chaos",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "Permanent",
+    "casting_time": "1",
+    "area": "One page/level",
+    "save": "None"
+   },
+   "summary": "Ink on one page per level scrambles over six days, then settles into a legible message in the author's hand saying the opposite. Spellbook or scroll pages become a useless false spell of the same level. Dispel magic restores the text.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Mistaken_Missive_(Priest_Spell)"
+  },
+  "Orison": {
+   "level": 1,
+   "figures": {
+    "school": "All Schools",
+    "sphere": "All",
+    "reversible": false,
+    "range": "10 yds.",
+    "components": "V, S",
+    "duration": "Special",
+    "casting_time": "4",
+    "area": "Varies",
+    "save": "None"
+   },
+   "summary": "Fills one 1st-level slot with several tiny prayers (3 + 1 per level, max 9), each chosen when cast: heal 1 hp, +1 to your next attack or next save vs magic or poison, calm fear, ease pain, sense nearby magic, or +2 to recall something.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Orison_(Priest_Spell)"
+  },
+  "Purify Food & Drink/Putrefy Food & Drink": {
+   "level": 1,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "All",
+    "reversible": true,
+    "range": "30 yds.",
+    "components": "V, S",
+    "duration": "Permanent",
+    "casting_time": "1 rd.",
+    "area": "1 cu. ft./level, in 10 sq. ft.",
+    "save": "None"
+   },
+   "summary": "Makes up to 1 cu ft per level of spoiled, poisoned or contaminated food and water safe, though it can still rot later; it spoils unholy water. No effect on creatures or potions. Reverse: spoils food and drink, even holy water.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Purify_Food_%26_Drink_(Priest_Spell)"
+  },
+  "Remove Fear/Cause Fear": {
+   "level": 1,
+   "figures": {
+    "school": "Abjuration",
+    "sphere": "Charm",
+    "reversible": true,
+    "range": "10 yds.",
+    "components": "V, S",
+    "duration": "Special",
+    "casting_time": "1",
+    "area": "1 creature/4 levels",
+    "save": "Special"
+   },
+   "summary": "Gives one creature per 4 levels +4 to saves against magical fear for a turn, and an immediate new save at +4 if they failed one today. Reverse: one creature flees in panic for 1d4 rounds unless it saves. Neither affects undead.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Remove_Fear_(Priest_Spell)"
+  },
+  "Sacred Guardian": {
+   "level": 1,
+   "figures": {
+    "school": "Enchantment/Charm",
+    "sphere": "Guardian",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "1 day/level",
+    "casting_time": "1",
+    "area": "Creature touched",
+    "save": "None"
+   },
+   "summary": "You know at once whenever the recipient is in danger, at any distance or even on another plane. From 3rd level you also receive a mental picture of the situation, but never its location.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Sacred_Guardian_(Priest_Spell)"
+  },
+  "Sanctuary": {
+   "level": 1,
+   "figures": {
+    "school": "Abjuration",
+    "sphere": "Protection",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "2 rds. + 1 rd./level",
+    "casting_time": "4",
+    "area": "1 creature",
+    "save": "None"
+   },
+   "summary": "Anyone trying to attack the warded creature directly must save vs spell or disregard it entirely; area attacks still work. The recipient may heal, bless, chant or cast divinations, but any offensive act ends the protection.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Sanctuary_(Priest_Spell)"
+  },
+  "Speak with Astral Traveler": {
+   "level": 1,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Astral",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "1 round/level",
+    "casting_time": "1 round",
+    "area": "One creature",
+    "save": "None"
+   },
+   "summary": "By touching the body of someone away on an astral projection, you converse mind-to-mind with their travelling self, at ordinary speaking pace.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Speak_with_Astral_Traveler_(Priest_Spell)"
+  },
+  "Sunscorch": {
+   "level": 1,
+   "figures": {
+    "school": "Invocation/Evocation",
+    "sphere": "Sun",
+    "reversible": false,
+    "range": "40 yds.",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "casting_time": "4",
+    "area": "1 creature",
+    "save": "Neg."
+   },
+   "summary": "A ray of sunlight hits one creature for 1d6 + 1 per level (1d6 + 2 per level against undead and light-sensitive creatures), and living targets are blinded 1d4 rounds; a save dodges it. Needs open sky and the sun up; overcast is fine.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Sunscorch_(Priest_Spell)"
+  },
+  "Aid": {
+   "level": 2,
+   "figures": {
+    "school": "Necromancy, Conjuration",
+    "sphere": "Necromantic",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "1 rd. + 1 rd./level",
+    "casting_time": "5",
+    "area": "1 creature",
+    "save": "None"
+   },
+   "summary": "Grants the benefits of bless (+1 to attacks and saves) plus 1d8 temporary hit points, which can take the recipient above their maximum, are lost first and cannot be healed back.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Aid_(Priest_Spell)"
+  },
+  "Astral Awareness": {
+   "level": 2,
+   "figures": {
+    "school": "Divination",
+    "sphere": "Astral",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S",
+    "duration": "1 hr./level",
+    "casting_time": "5",
+    "area": "The caster",
+    "save": "None"
+   },
+   "summary": "Attunes you to Astral and Ethereal hazards such as conduits, psychic wind, cyclones, colour pools and curtains. 90% to spot a colour pool from behind, 5% per level to read its destination or sense ethereal gaze threats, +2 against planar surprise.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Astral_Awareness_(Priest_Spell)"
+  },
+  "Aura of Comfort": {
+   "level": 2,
+   "figures": {
+    "school": "Evocation",
+    "sphere": "Travelers",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "1 hour/level",
+    "casting_time": "2",
+    "area": "Creature touched",
+    "save": "None"
+   },
+   "summary": "A shimmering aura keeps the recipient at a pleasant 70°F in natural temperatures from -20°F to 140°F and sheds rain, snow and hail; beyond that range it shifts by the excess. No protection from magical weather, fire, or fire or cold attacks.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Aura_of_Comfort_(Priest_Spell)"
+  },
+  "Chant": {
+   "level": 2,
+   "figures": {
+    "school": "Conjuration/Summoning",
+    "sphere": "Combat ⚠",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S",
+    "duration": "Time of chanting",
+    "casting_time": "2 rds.",
+    "area": "30-ft. radius",
+    "save": "None"
+   },
+   "summary": "While you keep chanting and stand still, allies in the area gain +1 to attacks, damage and saves, and enemies suffer -1. Taking damage, being grappled or silenced breaks it. A same-faith priest's prayer spell alongside raises it to +2/-2.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Chant_(Priest_Spell)"
+  },
+  "Chaos Ward": {
+   "level": 2,
+   "figures": {
+    "school": "Abjuration",
+    "sphere": "Chaos",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "2 rds./level",
+    "casting_time": "5",
+    "area": "Creature touched",
+    "save": "None"
+   },
+   "summary": "A whirling aura gives +1 AC in melee, and +2 AC and saves against missiles and spells aimed solely at the creature. For each such attack roll d% + caster level: 86–95 negated, 96–99 deflected to a random creature within 30 ft, 100+ reflected back.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Chaos_Ward_(Priest_Spell)"
+  },
+  "Cure Moderate Wounds/Cause Moderate Wounds": {
+   "level": 2,
+   "figures": {
+    "school": "Necromancy",
+    "sphere": "Healing",
+    "reversible": true,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "casting_time": "5",
+    "area": "Creature touched",
+    "save": "None"
+   },
+   "summary": "Your touch heals 1d10+1 hit points to a living, corporeal creature that is not extraplanar. Reverse: a successful touch inflicts 1d10+1 damage.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Cure_Moderate_Wounds_(Priest_Spell)"
+  },
+  "Dissension's Feast": {
+   "level": 2,
+   "figures": {
+    "school": "Enchantment/Charm, Alteration",
+    "sphere": "Chaos",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "5 turns+ 2 turns/level",
+    "casting_time": "2 turns",
+    "area": "Special",
+    "save": "Neg"
+   },
+   "summary": "Cast while preparing food (10 lb per level). Five rounds after eating, anyone who fails a save grows irritable, then quarrelsome and abusive, and all loyalties break down. When it ends they regain control but stay angry without knowing why.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Dissension's_Feast_(Priest_Spell)"
+  },
+  "Draw Upon Holy Might": {
+   "level": 2,
+   "figures": {
+    "school": "Invocation",
+    "sphere": "Summoning",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S, M",
+    "duration": "1 round/level",
+    "casting_time": "2",
+    "area": "The caster",
+    "save": "None"
+   },
+   "summary": "Boosts one of your Str, Dex, Con or Cha by +1 per three levels (max +6), even past racial or class limits, with full ability-score benefits. When it ends you collapse and can only rest for 4d6 turns (halved with a Con check).",
+   "wiki": "https://adnd2e.fandom.com/wiki/Draw_Upon_Holy_Might_(Priest_Spell)"
+  },
+  "Dust Devil": {
+   "level": 2,
+   "figures": {
+    "school": "Conjuration/Summoning",
+    "sphere": "Elemental (Air)",
+    "reversible": false,
+    "range": "30 yds.",
+    "components": "V, S",
+    "duration": "2 rds./level",
+    "casting_time": "2 rds.",
+    "area": "5 × 4 ft. cone",
+    "save": "None"
+   },
+   "summary": "Summons a small whirlwind (AC 4, 2 HD, MV 180 ft/round, 1d4 damage) that you direct; it vanishes if more than 30 yd from you. It snuffs small flames, pushes gas away, raises a blinding dust cloud on loose ground and can spoil spellcasting (save).",
+   "wiki": "https://adnd2e.fandom.com/wiki/Dust_Devil_(Priest_Spell)"
+  },
+  "Enthrall": {
+   "level": 2,
+   "figures": {
+    "school": "Enchantment/Charm",
+    "sphere": "Charm",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S",
+    "duration": "Special",
+    "casting_time": "1 rd.",
+    "area": "90-ft. radius",
+    "save": "Neg."
+   },
+   "summary": "After a round of uninterrupted speech, listeners who understand you must save or give you rapt attention while you keep talking (up to an hour), then 1d3 rounds more. Hostile races or faiths save at +4; 4+ HD or Wis 16+ are immune. Attacks break it.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Enthrall_(Priest_Spell)"
+  },
+  "Ethereal Barrier": {
+   "level": 2,
+   "figures": {
+    "school": "Abjuration",
+    "sphere": "Astral, Wards",
+    "reversible": false,
+    "range": "120 yds.",
+    "components": "V, S, M",
+    "duration": "1 turn/level",
+    "casting_time": "1 turn",
+    "area": "Two 10-ft. squares/level",
+    "save": "None"
+   },
+   "summary": "An unseen ward of two 10-ft squares per level, arranged as you like, that bars ethereal, phased, dimension-door and shadow-walk travel. It doesn't stop teleports, gates, astral beings or creatures that simply walk in. Several priests can pool their levels.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Ethereal_Barrier_(Priest_Spell)"
+  },
+  "Hold Person": {
+   "level": 2,
+   "figures": {
+    "school": "Enchantment/Charm",
+    "sphere": "Charm",
+    "reversible": false,
+    "range": "120 yds.",
+    "components": "V, S, M",
+    "duration": "2 rds./level",
+    "casting_time": "5",
+    "area": "1d4 persons",
+    "save": "Neg. in 20-ft. cube"
+   },
+   "summary": "Freezes 1d4 man-sized or smaller humans, demihumans or humanoids, who stay aware but cannot move or speak. Saves are normal against three or four targets, -1 against two, -2 against one. Undead are immune. You can end it with a word.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Hold_Person_(Priest_Spell)"
+  },
+  "Iron Vigil": {
+   "level": 2,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Guardian",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S",
+    "duration": "1 week + 1 day/level",
+    "casting_time": "1 turn",
+    "area": "The caster",
+    "save": "None"
+   },
+   "summary": "You need no food or drink and are unharmed by natural heat, cold or exposure; you may meditate instead of sleeping (1-point penalty on surprise checks; sleep still needed to memorise spells). Afterwards you must eat and drink or make Con checks every 4 hours.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Iron_Vigil_(Priest_Spell)"
+  },
+  "Lighten Load": {
+   "level": 2,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Travelers",
+    "reversible": false,
+    "range": "30 yards",
+    "components": "V, S, M",
+    "duration": "1 hour/level",
+    "casting_time": "2",
+    "area": "10-foot cube",
+    "save": "None"
+   },
+   "summary": "Halves the weight of a 10-ft cube's worth of gear, supplies or even an injured comrade, which can then be split among bearers or mounts. Size and use are unchanged. Doesn't work on magic items.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Lighten_Load_(Priest_Spell)"
+  },
+  "Messenger": {
+   "level": 2,
+   "figures": {
+    "school": "Enchantment/Charm",
+    "sphere": "Animal ⚠",
+    "reversible": false,
+    "range": "20 yds./level",
+    "components": "V, S",
+    "duration": "1 day/level",
+    "casting_time": "1 rd.",
+    "area": "1 creature",
+    "save": "Neg."
+   },
+   "summary": "Lures a tiny, non-giant animal below Int 5 that fails a save; you can send it with a small note or item to a simply described place, where it waits until the spell ends. The recipient gains no way to talk with it.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Messenger_(Priest_Spell)"
+  },
+  "Music of the Spheres": {
+   "level": 2,
+   "figures": {
+    "school": "Enchantment/Charm",
+    "sphere": "Numbers, Charm",
+    "reversible": false,
+    "range": "50 yards",
+    "components": "V, S, M",
+    "duration": "1 turn +1 round/level",
+    "casting_time": "4",
+    "area": "20-foot-diameter circle",
+    "save": "Neg."
+   },
+   "summary": "Unearthly music entrances one listener per three levels (save negates): they cannot attack you and save at -3 against charm spells. Your companions get no protection, and any hostile act by you ends it. Targets must be able to hear it clearly.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Music_of_the_Spheres_(Priest_Spell)"
+  },
+  "Restore Strength": {
+   "level": 2,
+   "figures": {
+    "school": "Necromancy",
+    "sphere": "Necromantic",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "casting_time": "5",
+    "area": "Creature touched",
+    "save": "None"
+   },
+   "summary": "Restores one creature's strength and stamina drained by magic or unnatural sources such as chill touch, ray of enfeeblement or a shadow's touch. Only temporary ability losses are fixed; natural fatigue, disease or injury are not helped.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Restore_Strength_(Priest_Spell)"
+  },
+  "Sanctify/Defile": {
+   "level": 2,
+   "figures": {
+    "school": "Conjuration/Summoning",
+    "sphere": "All",
+    "reversible": true,
+    "range": "10 yards",
+    "components": "V, S, M",
+    "duration": "Special",
+    "casting_time": "1 turn",
+    "area": "10 yard x 10 yard square/priest",
+    "save": "None"
+   },
+   "summary": "Hallows ground, alone or with other priests. Your deity's followers there gain +2 to saves against fear and charm, same-alignment allies +1, and hostile creatures suffer -1; priests there turn undead as one level higher. Reverse: same save effects, but turning is one level lower.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Sanctify_(Priest_Spell)"
+  },
+  "Silence, 15' Radius": {
+   "level": 2,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Guardian",
+    "reversible": false,
+    "range": "120 yds.",
+    "components": "V, S",
+    "duration": "2 rds./level",
+    "casting_time": "5",
+    "area": "15-ft.-radius",
+    "save": "None"
+   },
+   "summary": "Total silence in the area: no speech, no verbal spells, no sound in or out. Can be centred on an object or creature so it moves with it (an unwilling creature that saves has it placed just behind). Blocks sound-based attacks.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Silence,_15'_Radius_(Priest_Spell)"
+  },
+  "Slow Poison": {
+   "level": 2,
+   "figures": {
+    "school": "Necromancy",
+    "sphere": "Healing",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "1 hr./level",
+    "casting_time": "1",
+    "area": "1 creature",
+    "save": "None"
+   },
+   "summary": "Cast on a poisoned creature before the poison fully takes hold, it holds the venom at bay so it does no serious harm while the spell lasts, buying time for a cure. It does not neutralise the poison.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Slow_Poison_(Priest_Spell)"
+  },
+  "Snake Charm": {
+   "level": 2,
+   "figures": {
+    "school": "Enchantment/Charm",
+    "sphere": "Animal ⚠",
+    "reversible": false,
+    "range": "30 yds.",
+    "components": "V, S",
+    "duration": "Special",
+    "casting_time": "5",
+    "area": "30-ft. cube",
+    "save": "None"
+   },
+   "summary": "Sets snakes swaying harmlessly, up to a total of hit points equal to your own. Lasts 1d4+2 turns on dormant snakes, 1d3 turns on calm ones, 1d4+4 rounds on angry ones. Also works on snake-like monsters such as nagas, subject to magic resistance.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Snake_Charm_(Priest_Spell)"
+  },
+  "Spiritual Hammer": {
+   "level": 2,
+   "figures": {
+    "school": "Invocation",
+    "sphere": "Combat",
+    "reversible": false,
+    "range": "10 yds./level",
+    "components": "V, S, M",
+    "duration": "3 rds. + 1 rd./level",
+    "casting_time": "5",
+    "area": "Special",
+    "save": "None"
+   },
+   "summary": "A force hammer attacks any target you can see in range each round while you concentrate, using your THAC0 without Strength, at +1 per six levels (max +3) to hit and damage. Damage 1d4+1 (man-sized or smaller) or 1d4 (larger) plus bonus.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Spiritual_Hammer_(Priest_Spell)"
+  },
+  "Wyvern Watch": {
+   "level": 2,
+   "figures": {
+    "school": "Evocation",
+    "sphere": "Guardian",
+    "reversible": false,
+    "range": "30 yds.",
+    "components": "V, S, M",
+    "duration": "up to 8 hrs.",
+    "casting_time": "5",
+    "area": "10-ft. radius",
+    "save": "Neg."
+   },
+   "summary": "A faint wyvern shape guards a spot; the first intruder who fails a save is paralysed one round per level (until freed by you, dispel magic or remove paralysis), then the spell ends. Approachers may spot it: 90% in daylight, 30% at dusk, never in darkness.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Wyvern_Watch_(Priest_Spell)"
+  },
+  "Antivermin Barrier": {
+   "level": 1,
+   "figures": {
+    "school": "Abjuration",
+    "sphere": "Wards",
+    "reversible": false,
+    "range": "30 yds.",
+    "components": "V, S, M",
+    "duration": "1 hr./level",
+    "casting_time": "1",
+    "area": "10-ft./level cube",
+    "save": "None"
+   },
+   "summary": "An invisible field keeps out non-magical insects, rodents, spiders, snakes and similar vermin under 1 HD, including summoned swarms. Vermin already inside are unaffected but cannot come back once they leave.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Anti-Vermin_Barrier_(Priest_Spell)"
+  },
+  "Endure Cold/Endure Heat": {
+   "level": 1,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Protection",
+    "reversible": true,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "1½ hrs./level",
+    "casting_time": "1 rd.",
+    "area": "Creature touched",
+    "save": "None"
+   },
+   "summary": "The recipient is unharmed by natural cold down to -30°F or heat up to 130°F (choose one), taking 1 point per hour per degree beyond. Any magical heat or cold ends it, though the first 10 points of that damage are ignored.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Endure_Cold/Endure_Heat_(Priest_Spell)"
+  },
+  "Protection from Evil/Protection from Good": {
+   "level": 1,
+   "figures": {
+    "school": "Abjuration",
+    "sphere": "Protection",
+    "reversible": true,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "3 rds./level",
+    "casting_time": "4",
+    "area": "1 creature",
+    "save": "None"
+   },
+   "summary": "Evil attackers suffer -2 to hit and the recipient gains +2 to saves against them; mental control or possession is blocked, and summoned or extraplanar creatures cannot touch the recipient. Attacking a blocked creature in melee ends that. Reverse: guards against good creatures instead.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Protection_from_Evil_(Priest_Spell)"
+  },
+  "Ring of Hands/Ring of Woe": {
+   "level": 1,
+   "figures": {
+    "school": "Abjuration",
+    "sphere": "Protection",
+    "reversible": true,
+    "range": "0",
+    "components": "V, S",
+    "duration": "2d10 rounds",
+    "casting_time": "5",
+    "area": "Special",
+    "save": "None"
+   },
+   "summary": "Two to ten priests cast together and join hands, shielding everyone in the circle like protection from evil: evil attackers -1 and saves +1 per priest. The priests can't move or cast S/M spells and are attacked at +2. Reverse: guards against good instead.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Ring_of_Hands_(Priest_Spell)"
+  },
+  "Weighty Chest": {
+   "level": 1,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Wards",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "1 day /level",
+    "casting_time": "1",
+    "area": "5-foot cube",
+    "save": "None"
+   },
+   "summary": "Enchants a non-living object up to a 5-ft cube; when anyone but you touches it, it becomes 1d4+1 times heavier than whoever is handling it. You can move it normally.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Weighty_Chest_(Priest_Spell)"
+  },
+  "Wind Column": {
+   "level": 1,
+   "figures": {
+    "school": "Invocation/Evocation",
+    "sphere": "Elemental Air",
+    "reversible": false,
+    "range": "0",
+    "components": "S",
+    "duration": "2 rds./level",
+    "casting_time": "1",
+    "area": "The caster",
+    "save": "None"
+   },
+   "summary": "Winds slow your fall according to the prevailing breeze: very strong or strong means no damage, moderate 1 per 10 ft (max 8), light 1d2 per 10 ft, still air 1d3 per 10 ft. Very strong wind can lift you up to 5 ft per level.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Wind_Column_(Priest_Spell)"
+  },
+  "Create Holy Symbol": {
+   "level": 2,
+   "figures": {
+    "school": "Conjuration",
+    "sphere": "Creation",
+    "reversible": false,
+    "range": "0",
+    "components": "V",
+    "duration": "Permanent",
+    "casting_time": "2",
+    "area": "The caster",
+    "save": "None"
+   },
+   "summary": "Conjures a permanent holy symbol of your deity into your hands. It works for spells and turning undead like any other, or can be given to a junior priest of your faith.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Create_Holy_Symbol_(Priest_Spell)"
+  },
+  "Frisky Chest": {
+   "level": 2,
+   "figures": {
+    "school": "Enchantment/Charm",
+    "sphere": "Wards",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "Permanent",
+    "casting_time": "2",
+    "area": "10-foot cube",
+    "save": "None"
+   },
+   "summary": "Enchants a non-living object up to a 10-ft cube: when anyone but you comes within 3 ft, it sprouts legs, wings or fins (move 24) and flees to 10 ft away. It can't attack or smash through barriers. Holding it for 1d4+1 rounds ends it.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Frisky_Chest_(Priest_Spell)"
+  },
+  "Mystic Transfer": {
+   "level": 2,
+   "figures": {
+    "school": "Invocation",
+    "sphere": "Charm",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S",
+    "duration": "9 rounds",
+    "casting_time": "1 round",
+    "area": "The caster",
+    "save": "None"
+   },
+   "summary": "For the rest of the turn you can receive a spell cast at you by a priest of your own deity and immediately cast it yourself or relay it onward, within its range. It works at the original caster's level; handling it takes your action.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Mystic_Transfer_(Priest_Spell)"
+  },
+  "Resist Acid and Corrosion": {
+   "level": 2,
+   "figures": {
+    "school": "Abjuration",
+    "sphere": "Protection",
+    "reversible": false,
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "1 rd./level",
+    "casting_time": "5",
+    "area": "Creature touched",
+    "save": "None"
+   },
+   "summary": "Mild corrosives can't hurt the recipient, though gear can still suffer. Strong acids, including dragon breath and ooze attacks, do half damage; where a save applies, +3 to the save and damage drops to half on a failure, a quarter on a success.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Resist_Acid_and_Corrosion_(Priest_Spell)"
+  },
+  "Resist Fire/Resist Cold": {
+   "level": 2,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Protection",
+    "reversible": true,
+    "range": "Touch",
+    "components": "V, S, M",
+    "duration": "1 rd./level",
+    "casting_time": "5",
+    "area": "1 creature",
+    "save": "None"
+   },
+   "summary": "Choose fire or cold (the reverse form is simply the cold version): the recipient ignores mild exposure, and against intense or magical attacks of that kind gains +3 to saves and takes half damage, or a quarter if the save succeeds.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Resist_Fire/Resist_Cold_(Priest_Spell)"
+  },
+  "Withdraw": {
+   "level": 2,
+   "figures": {
+    "school": "Alteration",
+    "sphere": "Protection",
+    "reversible": false,
+    "range": "0",
+    "components": "V, S",
+    "duration": "Special",
+    "casting_time": "5",
+    "area": "The caster",
+    "save": "None"
+   },
+   "summary": "Time slows for you alone: you get two rounds plus one per level to think while one round passes for others. You may only think, read, use divinations or heal yourself; you lose Dex and shield AC, and any successful hit ends it.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Withdraw_(Priest_Spell)"
+  },
+  "Zone of Truth": {
+   "level": 2,
+   "figures": {
+    "school": "Enchantment/Charm",
+    "sphere": "Wards",
+    "reversible": false,
+    "range": "30 yards",
+    "components": "V, S, M",
+    "duration": "1 round/level",
+    "casting_time": "2",
+    "area": "5-foot square/level",
+    "save": "Neg."
+   },
+   "summary": "Creatures in the area who fail a save cannot knowingly lie while inside it. They know they are affected, so they may stay silent or give evasive but truthful answers.",
+   "wiki": "https://adnd2e.fandom.com/wiki/Zone_of_Truth_(Priest_Spell)"
+  }
+ },
+ "data_version": "ac98f22df5",
+ "built": "03 November 2026, 22:39"
+}

@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="gh2026-version" content="1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#3B2A12">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Greyhawk">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<title>Greyhawk Sheets</title>
+<style>
+@font-face{font-family:Cinzel;src:url(fonts/cinzel-latin-400-normal.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Cinzel;src:url(fonts/cinzel-latin-700-normal.woff2) format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'EB Garamond';src:url(fonts/eb-garamond-latin-400-normal.woff2) format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'EB Garamond';src:url(fonts/eb-garamond-latin-400-italic.woff2) format('woff2');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'EB Garamond';src:url(fonts/eb-garamond-latin-700-normal.woff2) format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:'EB Garamond';src:url(fonts/eb-garamond-latin-700-italic.woff2) format('woff2');font-weight:700;font-style:italic;font-display:swap}
+:root{
+  --paper:#F4ECD8;--paper-deep:#EADFC4;--ink:#22201C;--ink-deep:#3B2A12;--accent:#6B4A1E;--accent-text:#F4ECD8;
+  --gold:#C9A227;--ash:#7B7264;--border:#C9B98F;
+  --banner:var(--accent);--banner-text:var(--accent-text);--banner-sub:var(--accent-text);--banner-side:var(--gold);
+  --head:var(--accent);--head-text:var(--accent-text);--th-text:var(--ink-deep);--rule:var(--gold);
+  --serif:'EB Garamond',Georgia,'Times New Roman',serif;--display:Cinzel,'Trajan Pro',Georgia,serif;
+  --safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px);
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.35;-webkit-text-size-adjust:100%}
+body{min-height:100vh;overscroll-behavior-y:none}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+a{color:var(--ink-deep)}
+.hidden{display:none!important}
+.wrap{max-width:720px;margin:0 auto;padding:0 12px}
+/* picker */
+.picker{padding:calc(28px + var(--safe-t)) 16px 40px;max-width:520px;margin:0 auto;text-align:center}
+.picker h1{font-family:var(--display);font-weight:700;font-size:26px;letter-spacing:.04em;margin:8px 0 4px;color:#3B2A12}
+.picker p.sub{margin:0 0 22px;color:var(--ash);font-style:italic}
+.pick{display:block;width:100%;margin:0 0 14px;padding:16px 16px 14px;border-radius:10px;border:2px solid var(--b,#C9B98F);background:var(--bg,#6B4A1E);color:var(--fg,#F4ECD8);text-align:left;box-shadow:0 2px 0 rgba(0,0,0,.12)}
+.pick .nm{font-family:var(--display);font-weight:700;font-size:21px;letter-spacing:.02em;display:block}
+.pick .id{font-size:15px;opacity:.92;display:block;margin-top:3px}
+.pick:active{transform:translateY(1px)}
+/* banner */
+.banner{background:var(--banner);color:var(--banner-text);padding:calc(10px + var(--safe-t)) 12px 10px;border-bottom:3px solid var(--banner-side);position:relative}
+.banner .row{display:flex;align-items:center;gap:10px}
+.banner .em{width:44px;height:44px;flex:none}
+.banner .em svg{width:100%;height:100%}
+.banner h1{font-family:var(--display);font-weight:700;font-size:21px;line-height:1.15;margin:0;letter-spacing:.02em;flex:1;min-width:0}
+.banner .ident{color:var(--banner-sub);font-size:15px;margin-top:4px}
+.banner .ident strong{font-weight:700}
+.btn{border:1px solid var(--border);background:var(--paper);color:var(--ink-deep);border-radius:8px;padding:7px 12px;font-size:15px;line-height:1.1}
+.btn.small{padding:5px 9px;font-size:14px}
+.btn.primary{background:var(--accent);color:var(--accent-text);border-color:var(--accent)}
+.btn.ghost{background:transparent;border-color:currentColor;color:inherit}
+.btn:disabled{opacity:.5}
+.vitals{background:var(--paper-deep);border-bottom:1px solid var(--border);padding:8px 12px}
+.vitals .line{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
+.tabs{display:flex;gap:6px;padding:8px 12px;position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--border)}
+.tabs button{flex:1;border:1px solid var(--border);background:var(--paper-deep);border-radius:999px;padding:8px 6px;font-family:var(--display);font-size:14px;letter-spacing:.03em;color:var(--ink-deep)}
+.tabs button[aria-selected=true]{background:var(--head);color:var(--head-text);border-color:var(--head)}
+/* blocks */
+.blocks{padding:10px 0 calc(90px + var(--safe-b))}
+.block{border:1px solid var(--border);border-radius:8px;margin:0 0 12px;background:#FBF6EA;overflow:hidden}
+.block>h2{margin:0;background:var(--head);color:var(--head-text);font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.05em;padding:7px 10px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.block .body{padding:8px 10px}
+.body p{margin:6px 0}
+.body ul{margin:6px 0;padding-left:20px}
+.body li{margin:3px 0}
+.body em{color:inherit}
+.body h4{font-family:var(--display);font-size:13px;letter-spacing:.05em;margin:10px 0 4px;color:var(--th-text)}
+.tbl{overflow-x:auto;margin:6px -2px;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:15.5px}
+th{color:var(--th-text);text-align:left;font-weight:700;border-bottom:2px solid var(--rule);padding:4px 6px;white-space:nowrap}
+td{padding:4px 6px;border-bottom:1px solid rgba(0,0,0,.06);vertical-align:top}
+tr:nth-child(even) td{background:rgba(0,0,0,.025)}
+code{font-family:inherit;font-style:italic}
+/* tick boxes */
+.tick{appearance:none;-webkit-appearance:none;width:22px;height:22px;border:2px solid var(--ink-deep);border-radius:4px;background:#fff;margin:2px 1px;vertical-align:middle;position:relative;flex:none}
+.tick:checked{background:var(--ink-deep)}
+.tick:checked::after{content:'';position:absolute;left:6px;top:1px;width:6px;height:12px;border:solid var(--paper);border-width:0 3px 3px 0;transform:rotate(45deg)}
+.boxes{display:inline-flex;flex-wrap:wrap;gap:0 6px;vertical-align:middle}
+.boxes span{display:inline-flex}
+/* fields */
+.field{width:100%;border:none;border-bottom:1px dotted var(--ash);background:transparent;padding:3px 2px;font-size:16px;min-width:0}
+.field:focus{outline:none;border-bottom:2px solid var(--accent);background:#fff}
+td .field{min-width:56px;text-align:right}
+li.fl{list-style:none;margin-left:-18px;display:flex;gap:6px;align-items:center}
+li.fl::before{content:'•';color:var(--ash)}
+.addline{margin:4px 0 2px;font-size:14px}
+/* prayers */
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.chip{border:1px solid var(--border);background:var(--paper-deep);border-radius:999px;padding:6px 12px;font-size:15px;color:var(--ink-deep)}
+.chip[aria-pressed=true]{background:var(--accent);color:var(--accent-text);border-color:var(--accent)}
+.chip .star{color:var(--gold);margin-left:4px}
+.chip[aria-pressed=true] .star{color:var(--accent-text)}
+.activebar{display:flex;align-items:center;gap:8px;margin:6px 0 8px;font-size:15px}
+.slot{display:grid;grid-template-columns:42px 1fr auto auto;gap:6px;align-items:center;padding:5px 0;border-bottom:1px solid rgba(0,0,0,.06)}
+.slot .lv{font-weight:700;color:var(--th-text)}
+.slot.cast .field{text-decoration:line-through;color:var(--ash)}
+.castbtn{border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:6px;padding:6px 9px;font-size:14px;min-width:62px}
+.slot.cast .castbtn{background:var(--accent);color:var(--accent-text)}
+.info{border:none;background:transparent;font-size:19px;color:var(--ink-deep);padding:2px 4px;line-height:1}
+.info:disabled{opacity:.25}
+.prayerlist{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 10px}
+.plink{border:1px solid var(--border);background:#fff;border-radius:6px;padding:4px 8px;font-size:15px;color:var(--ink-deep);text-align:left}
+.reset-row{display:flex;justify-content:flex-end;gap:8px;margin-top:8px}
+/* bottom nav */
+.nav{position:fixed;left:0;right:0;bottom:0;background:var(--ink-deep);display:flex;padding:6px 6px calc(6px + var(--safe-b));z-index:10}
+.nav button{flex:1;background:transparent;border:none;color:var(--paper);font-family:var(--display);font-size:13px;letter-spacing:.04em;padding:8px 2px;border-radius:8px;opacity:.75}
+.nav button[aria-selected=true]{opacity:1;background:rgba(255,255,255,.12)}
+.nav button:disabled{opacity:.35}
+.nav small{display:block;font-family:var(--serif);font-size:11px;letter-spacing:0;opacity:.8}
+/* sheet panel */
+.scrim{position:fixed;inset:0;background:rgba(20,14,4,.45);z-index:20;display:flex;align-items:flex-end;justify-content:center}
+.panel{background:var(--paper);width:100%;max-width:720px;max-height:86vh;overflow:auto;border-radius:14px 14px 0 0;padding:14px 16px calc(18px + var(--safe-b));box-shadow:0 -6px 24px rgba(0,0,0,.25)}
+.panel h3{font-family:var(--display);font-size:20px;margin:0 0 2px;color:var(--ink-deep)}
+.panel .meta{color:var(--ash);font-size:15px;margin-bottom:8px}
+.panel .close{float:right}
+.panel .figs td:first-child{color:var(--th-text);font-weight:700;white-space:nowrap;width:40%}
+.panel .summary{font-size:17px;margin:10px 0}
+.panel .src{font-size:13px;color:var(--ash);margin-top:12px}
+/* more */
+.more{padding:14px 0 calc(90px + var(--safe-b))}
+.more .card{border:1px solid var(--border);border-radius:8px;background:#FBF6EA;padding:12px;margin-bottom:12px}
+.more h2{font-family:var(--display);font-size:16px;margin:0 0 8px;color:var(--ink-deep)}
+.muted{color:var(--ash)}
+.small{font-size:14px}
+.flag{background:#FFF4CC;border:1px solid var(--gold);border-radius:8px;padding:8px 10px;margin:10px 0;display:flex;gap:8px;align-items:center;justify-content:space-between;font-size:15px}
+.toast{position:fixed;left:50%;bottom:calc(84px + var(--safe-b));transform:translateX(-50%);background:var(--ink-deep);color:var(--paper);padding:8px 14px;border-radius:8px;z-index:30;font-size:15px}
+.soon{padding:40px 16px;text-align:center;color:var(--ash)}
+.soon h2{font-family:var(--display);color:var(--ink-deep)}
+</style>
+</head>
+<body>
+<div id="app"><p class="wrap muted" style="padding-top:40px">Loading…</p></div>
+<script>
+'use strict';
+const APP_VERSION='1.0';
+const PFX='gh2026.';
+const LIST_BLOCKS=['Gear','Magic and wealth','Notes'];   // blocks whose lines the player can edit
+let DATA=null, CUR=null, VIEW='front', TAB='sheet';
+const UPD={state:'idle',latest:null,dataLatest:null};
+
+/* ---------- storage (each character's entries saved only on this phone) ---------- */
+function lsGet(k,d){try{const v=localStorage.getItem(PFX+k);return v==null?d:JSON.parse(v);}catch(e){return d;}}
+function lsSet(k,v){try{localStorage.setItem(PFX+k,JSON.stringify(v));}catch(e){}}
+function lsDel(k){try{localStorage.removeItem(PFX+k);}catch(e){}}
+let ENT={};
+function loadEntries(){ENT=lsGet('entries.'+CUR.id,{});}
+function saveEntries(){lsSet('entries.'+CUR.id,ENT);}
+function eget(k,d){return k in ENT?ENT[k]:d;}
+function eset(k,v){if(v===undefined||v===null)delete ENT[k];else ENT[k]=v;saveEntries();}
+
+/* ---------- small DOM helper ---------- */
+function el(tag,attrs,...kids){const n=document.createElement(tag);
+  for(const [k,v] of Object.entries(attrs||{})){if(v==null||v===false)continue;
+    if(k==='class')n.className=v;else if(k==='html')n.innerHTML=v;else if(k.startsWith('on'))n.addEventListener(k.slice(2),v);
+    else if(k==='style')n.setAttribute('style',v);else n.setAttribute(k,v===true?'':v);}
+  for(const c of kids.flat()){if(c==null||c===false)continue;n.append(c.nodeType?c:document.createTextNode(String(c)));}
+  return n;}
+function toast(msg){const t=el('div',{class:'toast'},msg);document.body.append(t);setTimeout(()=>t.remove(),2200);}
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function plain(s){return s.replace(/\\_/g,'_').replace(/\*\*|`/g,'').replace(/(^|[^*])\*([^*]+)\*/g,'$1$2').replace(/\\(.)/g,'$1').trim();}
+const isBlank=s=>/^(\\?_\s*){3,}$/.test(s.trim());
+
+/* ---------- inline markdown, with tick boxes made live ---------- */
+function inline(text,ctx){
+  let h=esc(text).replace(/\\_/g,'_').replace(/\\([*|#])/g,'$1');
+  h=h.replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/(^|[^*\w])\*([^*\n]+)\*/g,'$1<em>$2</em>');
+  const span=el('span',{html:h});
+  if(ctx&&h.includes('☐')) liveBoxes(span,ctx);
+  return span;}
+function liveBoxes(root,ctx){
+  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);const texts=[];
+  while(walker.nextNode()) if(walker.currentNode.nodeValue.includes('☐')) texts.push(walker.currentNode);
+  for(const t of texts){const frag=document.createDocumentFragment();
+    const groups=t.nodeValue.split(/(☐[☐ ]*☐|☐)/);
+    for(const g of groups){ if(!g.includes('☐')){ if(g) frag.append(g); continue; }
+      const wrap=el('span',{class:'boxes'});
+      for(const run of g.trim().split(/ +/)){const s=el('span');for(const ch of run){ if(ch!=='☐')continue;
+          const key=ctx.key+':cb'+(ctx.n++); const cb=el('input',{type:'checkbox',class:'tick','aria-label':'tick'});
+          cb.checked=!!eget(key,false); cb.addEventListener('change',()=>eset(key,cb.checked||null)); s.append(cb);} wrap.append(s);}
+      frag.append(wrap);}
+    t.replaceWith(frag);} }
+
+/* ---------- block markdown: paragraphs, lists, tables ---------- */
+function renderMd(md,ctx,opts){
+  opts=opts||{}; const out=document.createDocumentFragment(); const lines=md.split('\n'); let i=0;
+  while(i<lines.length){const L=lines[i];
+    if(!L.trim()){i++;continue;}
+    if(L.trim().startsWith('|')){const rows=[];while(i<lines.length&&lines[i].trim().startsWith('|')){rows.push(lines[i]);i++;}
+      out.append(renderTable(rows,ctx,opts));continue;}
+    if(/^\s*- /.test(L)){const items=[];while(i<lines.length&&/^\s*- /.test(lines[i])){items.push(lines[i].replace(/^\s*- /,''));i++;}
+      out.append(renderList(items,ctx,opts));continue;}
+    const para=[];while(i<lines.length&&lines[i].trim()&&!lines[i].trim().startsWith('|')&&!/^\s*- /.test(lines[i])){para.push(lines[i]);i++;}
+    const txt=para.join(' ');
+    if(opts.editable&&/^\*\*[^*]+\*\*$/.test(txt.trim())) out.append(el('h4',{},plain(txt)));
+    else out.append(el('p',{},inline(txt,ctx)));}
+  return out;}
+function cells(row){return row.trim().replace(/^\||\|$/g,'').split(/(?<!\\)\|/).map(c=>c.trim());}
+function renderTable(rows,ctx,opts){
+  const head=cells(rows[0]); const body=rows.slice(2).map(cells);
+  const t=el('table'); const thr=el('tr');
+  head.forEach(h=>thr.append(el('th',{},inline(h))));
+  t.append(el('thead',{},thr)); const tb=el('tbody');
+  body.forEach((r,ri)=>{const tr=el('tr');r.forEach((c,ci)=>{
+      if(opts.editable&&ci>0){const key=ctx.key+':t'+ctx.tables+':'+ri+':'+ci;const f=el('input',{class:'field',value:eget(key,plain(c)),inputmode:'decimal','aria-label':plain(head[ci]||'')});
+        f.addEventListener('input',()=>eset(key,f.value===plain(c)?null:f.value));tr.append(el('td',{},f));}
+      else tr.append(el('td',{},inline(c,ctx)));});tb.append(tr);});
+  t.append(tb); ctx.tables++; return el('div',{class:'tbl'},t);}
+function renderList(items,ctx,opts){
+  const ul=el('ul');
+  if(!opts.editable){items.forEach(it=>ul.append(el('li',{},inline(it,ctx))));return ul;}
+  const lk=ctx.key+':l'+(ctx.lists++);
+  items.forEach((it,ii)=>{const key=lk+':'+ii; const def=isBlank(it)?'':plain(it);
+    const f=el('input',{class:'field',value:eget(key,def),placeholder:'…'});
+    f.addEventListener('input',()=>eset(key,f.value===def?null:f.value)); ul.append(el('li',{class:'fl'},f));});
+  const extraKey=lk+':extra';
+  const addExtra=(val,idx)=>{const f=el('input',{class:'field',value:val,placeholder:'…'});
+    f.addEventListener('input',()=>{const ex=eget(extraKey,[]);ex[idx]=f.value;eset(extraKey,ex);}); ul.append(el('li',{class:'fl'},f)); return f;};
+  eget(extraKey,[]).forEach((v,ix)=>addExtra(v,ix));
+  const frag=document.createDocumentFragment(); frag.append(ul);
+  frag.append(el('button',{class:'btn small addline',onclick:()=>{const ex=eget(extraKey,[]);ex.push('');eset(extraKey,ex);addExtra('',ex.length-1).focus();}},'+ Add a line'));
+  return frag;}
+
+/* ---------- special blocks ---------- */
+const ORD={1:'1st',2:'2nd',3:'3rd',4:'4th',5:'5th',6:'6th',7:'7th'};
+function prayersFor(levelLabel){const lv=parseInt(levelLabel,10);
+  return Object.entries(DATA.spells).filter(([n,s])=>s.level===lv&&CUR._prayers.has(n)).map(([n])=>n);}
+function findSpell(name){if(!name)return null;const n=name.trim().toLowerCase().replace(/\s*\/\s*/g,'/');
+  for(const k of Object.keys(DATA.spells)){const kk=k.toLowerCase();if(kk===n||kk.split('/').includes(n))return k;}return null;}
+function renderPrepared(b,ctx){
+  const lines=b.md.split('\n'); const tableRows=lines.filter(l=>l.trim().startsWith('|'));
+  const pre=lines.filter(l=>!l.trim().startsWith('|')).join('\n').replace(/ — \*pencil[^*]*\*/,'');
+  const head=cells(tableRows[0]).slice(1); const rows=tableRows.slice(2).map(r=>plain(cells(r)[0]).replace(/☐/g,'').trim());
+  const body=el('div',{class:'body'}); body.append(renderMd(pre,ctx));
+  const K='pp:'; let view=eget(K+'view',eget(K+'active',0));
+  const chips=el('div',{class:'chips',role:'group','aria-label':'Prayer lists'});
+  const activeBar=el('label',{class:'activebar'}); const activeCb=el('input',{type:'checkbox',class:'tick'});
+  activeBar.append(activeCb,el('span',{},'Use this list today'));
+  const list=el('div');
+  const dl=el('datalist',{id:'dl-'+CUR.id}); // per level datalists below
+  function draw(){chips.replaceChildren();head.forEach((h,hi)=>{const c=el('button',{class:'chip','aria-pressed':String(hi===view),onclick:()=>{view=hi;eset(K+'view',hi);draw();}},plain(h),hi===eget(K+'active',0)?el('span',{class:'star','aria-label':'active'},'★'):null);chips.append(c);});
+    activeCb.checked=(view===eget(K+'active',0));
+    list.replaceChildren();
+    rows.forEach((lv,ri)=>{const key=K+'l'+view+':'+ri; const castKey=K+'cast:'+ri;
+      const opts=prayersFor(lv); const dlid='dl-'+CUR.id+'-'+parseInt(lv,10);
+      if(!document.getElementById(dlid)){const d=el('datalist',{id:dlid});opts.forEach(o=>d.append(el('option',{value:o})));document.body.append(d);}
+      const f=el('input',{class:'field',value:eget(key,''),list:dlid,placeholder:'choose a '+lv+'-level prayer','aria-label':lv+' level prayer, '+plain(head[view])});
+      const info=el('button',{class:'info','aria-label':'About this prayer',title:'About this prayer'},'ⓘ');
+      const syncInfo=()=>{info.disabled=!findSpell(f.value);};
+      info.addEventListener('click',()=>{const s=findSpell(f.value);if(s)openSpell(s);});
+      f.addEventListener('input',()=>{eset(key,f.value||null);syncInfo();}); syncInfo();
+      const row=el('div',{class:'slot'+(eget(castKey,false)?' cast':'')});
+      const cb=el('button',{class:'castbtn',onclick:()=>{const v=!eget(castKey,false);eset(castKey,v||null);row.classList.toggle('cast',v);cb.textContent=v?'Cast ✓':'Cast';}},eget(castKey,false)?'Cast ✓':'Cast');
+      row.append(el('span',{class:'lv'},lv),f,info,cb); list.append(row);});}
+  activeCb.addEventListener('change',()=>{if(activeCb.checked){eset(K+'active',view);}else if(eget(K+'active',0)===view){eset(K+'active',null);} draw();});
+  draw();
+  const resetBtn=confirmButton('New day — clear all Cast','Tap again to clear',()=>{rows.forEach((_,ri)=>eset(K+'cast:'+ri,null));draw();toast('Cast marks cleared');});
+  body.append(chips,activeBar,list,el('div',{class:'reset-row'},resetBtn));
+  return body;}
+function renderFaith(b,ctx){
+  const body=el('div',{class:'body'});
+  for(const line of b.md.split('\n')){ if(!line.trim())continue;
+    const m=line.match(/^\*\*(.+?)\*\*\s*(.+)$/);
+    if(m&&/level/.test(m[1])){body.append(el('h4',{},plain(m[1]).replace(/:$/,'')));
+      const wrap=el('div',{class:'prayerlist'});
+      m[2].split(' · ').forEach(n=>{n=n.trim();wrap.append(el('button',{class:'plink',onclick:()=>openSpell(n)},n));});
+      body.append(wrap);}
+    else body.append(el('p',{},inline(line,ctx)));}
+  body.append(el('p',{class:'small muted'},'Tap a prayer for its figures and a short summary.'));
+  return body;}
+function confirmButton(label,again,fn){let armed=false,t=null;const b=el('button',{class:'btn small'},label);
+  b.addEventListener('click',()=>{if(!armed){armed=true;b.textContent=again;t=setTimeout(()=>{armed=false;b.textContent=label;},3000);return;}
+    clearTimeout(t);armed=false;b.textContent=label;fn();});return b;}
+
+/* ---------- prayer panel ---------- */
+function openSpell(name){const s=DATA.spells[name];if(!s)return;const f=s.figures||{};
+  const rows=[['Range',f.range],['Components',f.components],['Duration',f.duration],['Casting time',f.casting_time],['Area of effect',f.area],['Saving throw',f.save]].filter(r=>r[1]);
+  const meta=[(ORD[s.level]||s.level)+'-level priest prayer',f.school,f.sphere?'Sphere: '+f.sphere:null,f.reversible?'Reversible':null].filter(Boolean).join(' · ');
+  const scrim=el('div',{class:'scrim',onclick:e=>{if(e.target===scrim)scrim.remove();}});
+  const tb=el('tbody');rows.forEach(r=>tb.append(el('tr',{},el('td',{},r[0]),el('td',{},r[1]))));
+  const panel=el('div',{class:'panel',role:'dialog','aria-label':name},
+    el('button',{class:'btn small close',onclick:()=>scrim.remove()},'Close'),
+    el('h3',{},name),el('div',{class:'meta'},meta),
+    rows.length?el('div',{class:'tbl'},el('table',{class:'figs'},tb)):el('p',{class:'muted'},'Figures not recorded.'),
+    s.summary?el('p',{class:'summary'},s.summary):el('p',{class:'muted'},'No summary yet.'),
+    s.wiki?el('p',{},el('a',{href:s.wiki,target:'_blank',rel:'noopener'},'Fuller description on the AD&D 2e wiki ↗')):null,
+    el('p',{class:'src'},'Figures from the DM’s prayer book; summary written for this app. The wiki is a fan site, not the rulebook.'));
+  scrim.append(panel);document.body.append(scrim);}
+
+/* ---------- screens ---------- */
+function applyPalette(p){const r=document.documentElement.style;
+  const map={paper:'--paper',paper_deep:'--paper-deep',ink:'--ink',ink_deep:'--ink-deep',accent:'--accent',accent_text:'--accent-text',gold:'--gold',ash:'--ash',border:'--border',
+    banner:'--banner',banner_text:'--banner-text',banner_sub:'--banner-sub',banner_side:'--banner-side',head:'--head',head_text:'--head-text',th_text:'--th-text',rule:'--rule'};
+  for(const v of Object.values(map)) r.removeProperty(v);
+  for(const [k,v] of Object.entries(p||{})) if(map[k]) r.setProperty(map[k],v);
+  if(!(p&&p.banner_side)&&p&&p.gold) r.setProperty('--banner-side',p.gold);
+  const tc=document.querySelector('meta[name=theme-color]'); if(tc) tc.content=(p&&(p.banner||p.accent))||'#3B2A12';}
+function showPicker(){CUR=null;applyPalette(null);const app=document.getElementById('app');
+  const box=el('div',{class:'picker'},el('h1',{},'Which character are you?'),el('p',{class:'sub'},'Greyhawk — choose once; the app remembers.'));
+  DATA.characters.forEach(c=>{const p=c.palette||{};
+    box.append(el('button',{class:'pick',style:`--bg:${p.banner||p.accent||'#6B4A1E'};--fg:${p.banner_text||p.accent_text||'#F4ECD8'};--b:${p.banner_side||p.gold||'#C9B98F'}`,onclick:()=>{lsSet('char',c.id);openChar(c.id);}},
+      el('span',{class:'nm'},c.name),el('span',{class:'id'},plain(c.identity))));});
+  box.append(updateBanner()||'');
+  app.replaceChildren(box);}
+function openChar(id){const c=DATA.characters.find(x=>x.id===id);if(!c){lsDel('char');return showPicker();}
+  CUR=c;CUR._prayers=new Set();(c.back.concat(c.front)).filter(b=>b.title.startsWith('Prayers of')).forEach(b=>{
+    for(const m of b.md.matchAll(/\*\*\d\w* level[^*]*\*\*\s*(.+)/g)) m[1].split(' · ').forEach(n=>CUR._prayers.add(n.trim()));});
+  loadEntries();applyPalette(c.palette);VIEW=lsGet('view.'+id,'front');TAB='sheet';render();}
+function render(){const c=CUR;const app=document.getElementById('app');app.replaceChildren();
+  const em=c.emblem?el('div',{class:'em',html:c.emblem}):null;
+  const banner=el('header',{class:'banner'},el('div',{class:'row'},em,el('h1',{},c.name),
+    el('button',{class:'btn small ghost',onclick:()=>{lsDel('char');showPicker();}},'Switch')),el('div',{class:'ident'},inline(c.identity)));
+  app.append(banner);
+  if(TAB==='sheet'){
+    const vctx={key:'vitals',n:0,lists:0,tables:0};
+    const vm=c.vitals.match(/^(.*\u2610)\s*\u00b7\s*(.+)$/);
+    const v=el('div',{class:'vitals'},el('div',{class:'line'},inline(vm?vm[1]:c.vitals,vctx)),vm?el('div',{class:'line',style:'margin-top:4px'},inline(vm[2])):null,
+      el('div',{class:'reset-row',style:'margin-top:4px'},confirmButton('Clear hit-point ticks','Tap again to clear',()=>{Object.keys(ENT).filter(k=>k.startsWith('vitals:cb')).forEach(k=>delete ENT[k]);saveEntries();render();})));
+    app.append(v);
+    const tabs=el('div',{class:'tabs',role:'tablist'},
+      el('button',{role:'tab','aria-selected':String(VIEW==='front'),onclick:()=>{VIEW='front';lsSet('view.'+c.id,VIEW);render();}},'In the fight'),
+      el('button',{role:'tab','aria-selected':String(VIEW==='back'),onclick:()=>{VIEW='back';lsSet('view.'+c.id,VIEW);render();}},'Everything else'));
+    app.append(tabs);
+    const wrap=el('div',{class:'wrap blocks'}); const ub=updateBanner(); if(ub) wrap.append(ub);
+    (VIEW==='front'?c.front:c.back).forEach(b=>wrap.append(renderBlock(b)));
+    if(VIEW==='back'&&c.footer) wrap.append(el('p',{class:'small muted',style:'text-align:center'},plain(c.footer)));
+    app.append(wrap);
+  } else if(TAB==='more'){ app.append(renderMore()); }
+  app.append(navBar());}
+function renderBlock(b){const ctx={key:b.title.replace(/\s+/g,' '),n:0,lists:0,tables:0};
+  const sec=el('section',{class:'block'},el('h2',{},plain(b.title)));
+  if(/^Prepared prayers/.test(b.title)) sec.append(renderPrepared(b,ctx));
+  else if(/^Prayers of/.test(b.title)) sec.append(renderFaith(b,ctx));
+  else{const body=el('div',{class:'body'});body.append(renderMd(b.md,ctx,{editable:LIST_BLOCKS.includes(b.title)}));sec.append(body);}
+  return sec;}
+function navBar(){return el('nav',{class:'nav'},
+  el('button',{'aria-selected':String(TAB==='sheet'),onclick:()=>{TAB='sheet';render();}},'Sheet'),
+  el('button',{disabled:true,title:'Coming later'},'Initiative',el('small',{},'coming later')),
+  el('button',{'aria-selected':String(TAB==='more'),onclick:()=>{TAB='more';render();}},'More'));}
+function renderMore(){const c=CUR;const box=el('div',{class:'wrap more'});
+  box.append(el('div',{class:'card'},el('h2',{},'Character'),el('p',{class:'small'},'Showing ',el('strong',{},c.name),'. ',plain(c.footer)),
+    el('div',{class:'reset-row',style:'justify-content:flex-start'},el('button',{class:'btn',onclick:()=>{lsDel('char');showPicker();}},'Switch character'))));
+  box.append(el('div',{class:'card'},el('h2',{},'Your entries'),
+    el('p',{class:'small muted'},'Ticks, prayer lists and the lines you fill in are saved on this phone only. The DM does not see them, and an update does not touch them.'),
+    el('div',{class:'reset-row',style:'justify-content:flex-start'},confirmButton('Clear all my entries for '+c.name.split(' ')[0],'Tap again — this cannot be undone',()=>{ENT={};saveEntries();toast('Entries cleared');render();}))));
+  const st={checking:'Checking…',current:'Up to date.',available:'An update is on GitHub.',offline:'Offline — connect to check.',error:'Could not reach GitHub.'}[UPD.state]||'';
+  box.append(el('div',{class:'card'},el('h2',{},'App version'),
+    el('p',{class:'small muted',style:'margin:0 0 8px'},`Installed: app ${APP_VERSION}, character data of ${DATA.built||'—'}. The app fetches the latest copy each time it opens with a connection; the check pulls a new upload straight away.`),
+    el('div',{class:'reset-row',style:'justify-content:flex-start'},el('button',{class:'btn',onclick:()=>checkUpdate(false)},UPD.state==='checking'?'Checking…':'Check for update'),
+      UPD.state==='available'?el('button',{class:'btn primary',onclick:applyUpdate},'Update now'):null),
+    el('p',{class:'small muted'},st)));
+  return box;}
+
+/* ---------- update check (GT Fit's mechanism: compare the live copy's stamps) ---------- */
+async function checkUpdate(silent){UPD.state='checking';if(!silent&&CUR)render();
+  if(!navigator.onLine){UPD.state='offline';}
+  else try{const [r1,r2]=await Promise.all([fetch('index.html?u='+Date.now(),{cache:'no-store'}),fetch('data.json?u='+Date.now(),{cache:'no-store'})]);
+    if(!r1.ok||!r2.ok) throw new Error('http');
+    const t=await r1.text();const m=t.match(/gh2026-version" content="([^"]+)"/);UPD.latest=m?m[1]:null;
+    const d=await r2.json();UPD.dataLatest=d.data_version;
+    UPD.state=(UPD.latest&&UPD.latest!==APP_VERSION)||(UPD.dataLatest&&DATA&&UPD.dataLatest!==DATA.data_version)?'available':'current';}
+  catch(e){UPD.state='error';}
+  if(!silent) toast(UPD.state==='current'?'Up to date':UPD.state==='available'?'An update is available':UPD.state==='offline'?'Offline':'Could not reach GitHub');
+  if(CUR) render(); else if(DATA) showPicker();}
+async function applyUpdate(){try{if('caches' in window){const ks=await caches.keys();await Promise.all(ks.filter(k=>k.startsWith('gh2026')).map(k=>caches.delete(k)));}
+  const reg=await navigator.serviceWorker?.getRegistration?.();if(reg)await reg.update().catch(()=>{});}catch(e){} location.reload();}
+function updateBanner(){if(UPD.state!=='available')return null;
+  return el('div',{class:'flag'},el('span',{},'Update available — new sheets from the DM.'),el('button',{class:'btn small primary',onclick:applyUpdate},'Update now'));}
+
+/* ---------- start ---------- */
+async function start(){
+  try{const r=await fetch('data.json',{cache:'no-store'});DATA=await r.json();}
+  catch(e){document.getElementById('app').replaceChildren(el('p',{class:'wrap',style:'padding-top:40px'},'Could not load the character data. Connect to the internet and open the app again.'));return;}
+  const saved=lsGet('char',null);
+  if(saved&&DATA.characters.some(c=>c.id===saved)) openChar(saved); else showPicker();
+  if(location.protocol!=='file:') setTimeout(()=>checkUpdate(true),1500);}
+if('serviceWorker' in navigator){try{navigator.serviceWorker.register('sw.js').catch(()=>{});}catch(e){}}
+start();
+</script>
+</body>
+</html>
