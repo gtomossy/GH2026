@@ -101,8 +101,8 @@
     "border": "#C9B98F"
    },
    "emblem": null,
-   "footer": "Register v1.31 · sheet v2.23 · S079e, 12 November 2026",
-   "register_version": "1.31",
+   "footer": "Register v1.32 · sheet v2.25 · S079e, 12 November 2026",
+   "register_version": "1.32",
    "front": [
     {
      "title": "Ability scores",
@@ -156,7 +156,7 @@
     },
     {
      "title": "Gear",
-     "md": "**Consumables**\n\n- Potion of Healing (2d4+2) ×1\n- Invisibility potion ×1 dose\n- Healing salve (heals 1d3; Healing with advantage) ×4 applications\n- Oil flask ×1\n- Rations ×2\n- Torches ×3\n- Candles ×2\n\n**Ammunition**\n\n- Sling bullets ×20\n- Silver sling bullets ×19\n- Sling stones ×15\n\n**Equipment**\n\n- Broadsword\n- Silver spear (solid silver)\n- Daggers ×2\n- Sling\n- Leather armour\n- Chain mail\n- Medium shield\n- Lockpicks · Chalk · 20 ft cord · Alley map\n- Holy symbol (triskelion) · Ritual stones · Prayer folio\n- Backpack · Bedroll · Waterskin · Bandages\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+     "md": "**Consumables**\n\n- Potion of Healing (2d4+2) ×1\n- Invisibility potion ×1 dose\n- Healing salve (heals 1d3; Healing with advantage) ×3 applications\n- Oil flask ×1\n- Rations ×2\n- Torches ×3\n- Candles ×2\n\n**Ammunition**\n\n- Sling bullets ×20\n- Silver sling bullets ×19\n- Sling stones ×15\n\n**Equipment**\n\n- Broadsword\n- Silver spear (solid silver)\n- Daggers ×2\n- Sling\n- Leather armour\n- Chain mail\n- Medium shield\n- Lockpicks · Chalk · 20 ft cord · Alley map\n- Holy symbol (triskelion) · Ritual stones · Prayer folio\n- Backpack · Bedroll · Waterskin · Bandages\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
     },
     {
      "title": "Magic and wealth",
@@ -165,10 +165,6 @@
     {
      "title": "Homebrew rulings",
      "md": "Dual-class entry (min Dex 15; at least 2nd level before switching) and experience restrictions waived · weapon proficiencies: 2 by the rules + 1 DM grant (spear, broadsword, sling) · leather and chain both allowed · saves: best of priest and rogue · backstab with edged weapons only (not the spears) · chain: Complete Thief's Handbook penalties · Religion covers his own faith only, no slot · four out-of-sphere prayers approved · healing salve: Healing check with advantage (roll twice, keep the better) · medium shield: 2 opponents a round, front or shield side."
-    },
-    {
-     "title": "Notes",
-     "md": "- Next session opens with every prayer cast but one 2nd: *Ethereal Barrier*"
     }
    ],
    "prepared": {
@@ -1237,6 +1233,6 @@
    "wiki": "https://adnd2e.fandom.com/wiki/Zone_of_Truth_(Priest_Spell)"
   }
  },
- "data_version": "04d7dc0696",
- "built": "12 November 2026, 15:01"
+ "data_version": "07bf4d2012",
+ "built": "12 November 2026, 15:51"
 }
