@@ -101,7 +101,7 @@
     "border": "#C9B98F"
    },
    "emblem": null,
-   "footer": "Register v1.32 · sheet v2.25 · S079e, 12 November 2026",
+   "footer": "Register v1.32 · sheet v2.26 · S078 post-close, 14 November 2026",
    "register_version": "1.32",
    "front": [
     {
@@ -160,7 +160,11 @@
     },
     {
      "title": "Magic and wealth",
-     "md": "**Magic**\n\n- Spear +1 — +1 to hit & damage\n- Knife +1 — +1 to hit & damage\n- Continual Light stone, in blackout velvet pouch\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n**Wealth**\n\n| | cp | sp | ep | gp | pp |\n|---|---|---|---|---|---|\n| **On hand** | | | | 5 | |\n| **Banked** | | | | 1,707 | |\n\n**Gems, jewellery and other valuables**\n\n- 95gp stolen, Census Bandits, to return in spring\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+     "md": "**Magic**\n\n- Spear +1 — +1 to hit & damage\n- Knife +1 — +1 to hit & damage\n- Continual Light stone, in blackout velvet pouch\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\n**Wealth**\n\n| | cp | sp | ep | gp | pp |\n|---|---|---|---|---|---|\n| **On hand** | | | | 5 | |\n| **Banked** | | | | 1,707 | |\n\n**Gems, jewellery and other valuables**\n\n- 95gp stolen, Census Bandits, to return in spring\n- \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_"
+    },
+    {
+     "title": "Orisons",
+     "md": "*6 per 1st-level slot; one at a time; each lasts ≤ 3 rounds.* ☐☐☐☐☐☐\n\n**Alleviate** nausea or pain (magical: save −2) · **Calm** fear (magical: save −2) · **Clarity** of speech · **Courage** +1 next attack · **Guidance** +1 Wis/Int check · **Healing** 1 hp by touch · **Magic sense** within 10 yds · **Memory** +2 to recall · **Resist magic** / **Resist poison** +1 next save"
     },
     {
      "title": "Homebrew rulings",
@@ -1233,6 +1237,6 @@
    "wiki": "https://adnd2e.fandom.com/wiki/Zone_of_Truth_(Priest_Spell)"
   }
  },
- "data_version": "07bf4d2012",
- "built": "12 November 2026, 15:51"
+ "data_version": "e1f60e1471",
+ "built": "13 November 2026, 19:45"
 }
